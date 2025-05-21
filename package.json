@@ -1,0 +1,22 @@
+{
+  "name": "useverse",
+  "version": "1.0.0",
+  "description": "A collection of practical React hooks for enhancing web applications with UI sounds, keyboard shortcuts, and file download capabilities",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.4",
+    "@types/react": "^19.1.5",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}

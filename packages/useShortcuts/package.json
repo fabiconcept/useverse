@@ -1,0 +1,24 @@
+{
+  "name": "@useverse/useshortcuts",
+  "version": "1.0.0",
+  "description": "A React hook for handling keyboard shortcuts in your app, supporting combinations of regular keys with ctrl, alt, shift, and meta modifiers",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}

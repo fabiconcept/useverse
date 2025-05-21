@@ -1,0 +1,27 @@
+{
+  "name": "@useverse/usesoundeffect",
+  "version": "1.0.0",
+  "description": "A React hook for adding UI sound effects to your app's interactive elements like buttons, with configurable options for volume, looping, preloading, and timing",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  }
+}
