@@ -25,7 +25,7 @@ Install any hook individually:
 npm install @useverse/useFileDownload
 ````
 
-Want everything? (Coming soon)
+Want everything?
 
 ```bash
 npm install @useverse/core
@@ -57,13 +57,13 @@ Here's a step-by-step guide for beginners:
 
 ### 1. Fork the repo
 
-Go to the [main repository](https://github.com/useverse/hooks) and click `Fork`.
+Go to the [main repository](https://github.com/fabiconcept/useverse) and click `Fork`.
 
 ### 2. Clone your fork
 
 ```bash
 git clone https://github.com/your-username/hooks.git
-cd hooks
+cd useverse
 ```
 
 ### 3. Install dependencies
@@ -102,7 +102,9 @@ useYourHook/
 Back in the root folder:
 
 ```bash
-npm run build
+npx changeset
+npx changeset version 
+npx changeset publish 
 ```
 
 Verify your new hook works as expected.
@@ -117,10 +119,10 @@ git commit -m "Add useYourHook"
 ### 7. Push and open a PR
 
 ```bash
-git push origin main
+git push origin newHook/your-branch
 ```
 
-Then open a Pull Request on GitHub. We’ll review and merge!
+Then open a Pull Request on GitHub. I’ll (hopefully We) review and merge!
 
 ---
 
@@ -135,10 +137,10 @@ Then open a Pull Request on GitHub. We’ll review and merge!
 
 ## 🪐 License
 
-MIT © [useverse contributors](https://github.com/useverse/hooks)
+MIT © [useverse contributors](https://github.com/fabiconcept/useverse)
 
 ---
 
 ### 💬 Questions? Ideas?
 
-Open an [issue](https://github.com/useverse/hooks/issues) or reach out – we'd love to hear from you.
+Open an [issue](https://github.com/fabiconcept/useverse/issues) or reach out – we'd love to hear from you.
