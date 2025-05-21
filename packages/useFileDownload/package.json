@@ -1,6 +1,6 @@
 {
   "name": "@useverse/usefiledownload",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A React hook for handling file downloads with built-in status tracking and custom filename support",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -19,6 +19,6 @@
   "license": "ISC",
   "type": "commonjs",
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": ">=16.8.0"
   }
 }
