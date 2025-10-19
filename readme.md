@@ -22,7 +22,7 @@ Welcome to **useverse**, a modular, modern library of hand-crafted React hooks d
 Install any hook individually:
 
 ```bash
-npm install @useverse/useFileDownload
+npm install @useverse/usefiledownload
 ````
 
 Want everything?

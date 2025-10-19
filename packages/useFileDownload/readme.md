@@ -7,7 +7,7 @@ A React hook for downloading files from a URL with built-in status tracking. Aut
 ## 📦 Installation
 
 ```bash
-npm install @useverse/useFileDownload
+npm install @useverse/usefiledownload
 ````
 
 ---
@@ -17,7 +17,7 @@ npm install @useverse/useFileDownload
 ```tsx
 "use client";
 
-import useFileDownload from '@useverse/useFileDownload';
+import useFileDownload from '@useverse/usefiledownload';
 
 export default function DownloadButton() {
   const [status, startDownload] = useFileDownload();
@@ -87,7 +87,7 @@ Returns a tuple:
 If you want just the logic to manually trigger a download:
 
 ```ts
-import { downloadHandler } from '@useverse/useFileDownload';
+import { downloadHandler } from '@useverse/usefiledownload';
 
 await downloadHandler('https://example.com/image.png', 'custom-image.png');
 ```

@@ -9,7 +9,7 @@ Ideal for adding feedback sounds, ambient loops, or interactive audio to your UI
 ## 📦 Installation
 
 ```bash
-npm install @useverse/useSoundEffect
+npm install @useverse/usesoundeffect
 ````
 
 ---
@@ -19,7 +19,7 @@ npm install @useverse/useSoundEffect
 ```tsx
 "use client";
 
-import useSoundEffect from '@useverse/useSoundEffect';
+import useSoundEffect from '@useverse/usesoundeffect';
 
 export default function ExampleComponent() {
   const {

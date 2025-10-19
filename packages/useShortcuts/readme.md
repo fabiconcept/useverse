@@ -9,7 +9,7 @@ Supports modifier keys (Ctrl, Alt, Shift, Meta) and custom actions when shortcut
 ## 📦 Installation
 
 ```bash
-npm install @useverse/useShortcuts
+npm install @useverse/useshortcuts
 ````
 
 ---
@@ -19,12 +19,13 @@ npm install @useverse/useShortcuts
 ```tsx
 "use client";
 
-import useShortcuts from '@useverse/useShortcuts';
+import useShortcuts from '@useverse/useshortcuts';
 
 export default function KeyboardShortcutDemo() {
   useShortcuts({
     shortcuts: [
       { key: 'K', ctrlKey: true },
+      { key: 'K', metaKey: true },
       { key: 'S', ctrlKey: true, shiftKey: true },
       { key: 'F5', isSpecialKey: true }
     ],
