@@ -1,6 +1,6 @@
 {
   "name": "useverse",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A collection of practical React hooks for enhancing web applications with UI sounds, keyboard shortcuts, and file download capabilities",
   "main": "index.js",
   "workspaces": [
