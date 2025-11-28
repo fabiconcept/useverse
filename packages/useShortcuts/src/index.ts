@@ -1,4 +1,4 @@
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, DependencyList } from 'react';
 
 interface ShortcutConfig {
     key: string;
@@ -7,6 +7,7 @@ interface ShortcutConfig {
     shiftKey?: boolean;
     metaKey?: boolean;
     isSpecialKey?: boolean;
+    enabled?: boolean;
 }
 
 interface ShortcutOptions {
@@ -22,12 +23,16 @@ interface ShortcutOptions {
  * @param {ShortcutOptions} options
  *   - `shortcuts`: array of shortcut configurations to match against
  *   - `onTrigger`: callback invoked when a matching shortcut is pressed
+ * @param {DependencyList} deps - dependency array (like useEffect) to control when the effect re-runs
  */
-const useShortcuts = ({ shortcuts, onTrigger }: ShortcutOptions) => {
+const useShortcuts = ({ shortcuts, onTrigger }: ShortcutOptions, deps: DependencyList = []) => {
     const handleShortCut = useCallback((e: KeyboardEvent) => {
         const { ctrlKey, altKey, shiftKey, metaKey, code } = e;
 
         const matchingShortcut = shortcuts.find(shortcut => {
+            // Skip disabled shortcuts
+            if (shortcut.enabled === false) return false;
+            
             const keyMatch = shortcut.isSpecialKey 
                 ? code === shortcut.key 
                 : code === `Key${shortcut.key.toUpperCase()}`;
@@ -43,7 +48,7 @@ const useShortcuts = ({ shortcuts, onTrigger }: ShortcutOptions) => {
             e.preventDefault();
             onTrigger(matchingShortcut);
         }
-    }, [shortcuts, onTrigger]);
+    }, deps);
 
     useEffect(() => {
         document.addEventListener("keydown", handleShortCut);
