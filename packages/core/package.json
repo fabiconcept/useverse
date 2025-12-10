@@ -1,11 +1,11 @@
 {
   "name": "@useverse/core",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "private": false,
   "dependencies": {
-    "@useverse/usesoundeffect": "^1.1.0",
-    "@useverse/useshortcuts": "^1.1.0",
-    "@useverse/usefiledownload": "^1.1.0"
+    "@useverse/usesoundeffect": "^1.2.1",
+    "@useverse/useshortcuts": "^2.0.1",
+    "@useverse/usefiledownload": "^1.3.1"
   },
   "publishConfig": {
     "access": "public"
