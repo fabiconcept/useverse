@@ -1,8 +1,6 @@
 # @useverse/useShortcuts
 
-A flexible and type-safe React hook to register and handle keyboard shortcuts using the `keydown` event.
-
-Supports modifier keys (Ctrl, Alt, Shift, Meta), conditional enabling/disabling, and custom dependency tracking.
+A flexible and type-safe React hook for handling keyboard shortcuts with support for modifier keys, conditional enabling, and custom dependency tracking.
 
 ---
 
@@ -21,7 +19,7 @@ npm install @useverse/useshortcuts
 ```tsx
 "use client";
 
-import useShortcuts from '@useverse/useshortcuts';
+import useShortcuts, { KeyboardKey } from '@useverse/useshortcuts';
 
 export default function KeyboardShortcutDemo() {
   const handleShortcut = (shortcut) => {
@@ -30,46 +28,49 @@ export default function KeyboardShortcutDemo() {
 
   useShortcuts({
     shortcuts: [
-      { key: 'K', ctrlKey: true },
-      { key: 'K', metaKey: true },
-      { key: 'S', ctrlKey: true, shiftKey: true },
-      { key: 'F5', isSpecialKey: true }
+      { key: KeyboardKey.KeyK, ctrlKey: true, enabled: true },
+      { key: KeyboardKey.KeyK, metaKey: true, enabled: true },
+      { key: KeyboardKey.KeyS, ctrlKey: true, shiftKey: true, enabled: true },
+      { key: KeyboardKey.F5, isSpecialKey: true, enabled: true }
     ],
     onTrigger: handleShortcut
   }, [handleShortcut]);
 
-  return <p>Try pressing Ctrl+K, Ctrl+Shift+S or F5!</p>;
+  return <p>Try pressing Ctrl+K, Cmd+K, Ctrl+Shift+S or F5!</p>;
 }
 ```
 
-### With Dependencies
+### Using Shortcuts Presets
 
 ```tsx
-import { useState } from 'react';
-import useShortcuts from '@useverse/useshortcuts';
+"use client";
+import { useState, useCallback } from 'react';
+import useShortcuts, { ShortcutsPresets, KeyboardKey } from '@useverse/useshortcuts';
 
 export default function SaveDocument() {
   const [content, setContent] = useState('');
 
-  const handleSave = () => {
-    console.log('Saving:', content);
-    // Save logic here
-  };
+  const handleShortcut = useCallback((shortcut: KeyboardKey) => {
+    if (shortcut.key === 'S') {
+      console.log('Saving:', content);
+      // Save logic here
+    }
+  }, [content]);
 
-  // Re-run shortcut handler when handleSave or content changes
   useShortcuts({
     shortcuts: [
-      { key: 'S', ctrlKey: true },
-      { key: 'S', metaKey: true }
+      ShortcutsPresets.SAVE(),
+      ShortcutsPresets.UNDO(),
+      ShortcutsPresets.REDO()
     ],
-    onTrigger: handleSave
-  }, [handleSave, content]);
+    onTrigger: handleShortcut
+  }, [handleShortcut]);
 
   return (
     <textarea 
       value={content} 
       onChange={(e) => setContent(e.target.value)}
-      placeholder="Press Ctrl+S to save"
+      placeholder="Press Ctrl+S to save, Ctrl+Z to undo"
     />
   );
 }
@@ -79,7 +80,7 @@ export default function SaveDocument() {
 
 ```tsx
 import { useState } from 'react';
-import useShortcuts from '@useverse/useshortcuts';
+import useShortcuts, { KeyboardKey } from '@useverse/useshortcuts';
 
 export default function Editor() {
   const [canEdit, setCanEdit] = useState(true);
@@ -87,14 +88,14 @@ export default function Editor() {
 
   useShortcuts({
     shortcuts: [
-      { key: 'S', ctrlKey: true, enabled: canEdit },
-      { key: 'Z', ctrlKey: true, enabled: canUndo },
-      { key: 'H', ctrlKey: true } // always enabled
+      { key: KeyboardKey.KeyS, ctrlKey: true, enabled: canEdit },
+      { key: KeyboardKey.KeyZ, ctrlKey: true, enabled: canUndo },
+      { key: KeyboardKey.KeyH, ctrlKey: true, enabled: true }
     ],
     onTrigger: (shortcut) => {
-      if (shortcut.key === 'S') console.log('Save');
-      if (shortcut.key === 'Z') console.log('Undo');
-      if (shortcut.key === 'H') console.log('Help');
+      if (shortcut.key === KeyboardKey.KeyS) console.log('Save');
+      if (shortcut.key === KeyboardKey.KeyZ) console.log('Undo');
+      if (shortcut.key === KeyboardKey.KeyH) console.log('Help');
     }
   }, [canEdit, canUndo]);
 
@@ -124,54 +125,106 @@ useShortcuts(
 
 ### ShortcutConfig
 
-| Property       | Type      | Required | Default | Description                                                |
-| -------------- | --------- | -------- | ------- | ---------------------------------------------------------- |
-| `key`          | `string`  | ✅        | —       | Keyboard key to listen for (e.g. `'K'`, `'F5'`).           |
-| `ctrlKey`      | `boolean` | ❌        | —       | Require the Ctrl key to be held.                           |
-| `altKey`       | `boolean` | ❌        | —       | Require the Alt key to be held.                            |
-| `shiftKey`     | `boolean` | ❌        | —       | Require the Shift key to be held.                          |
-| `metaKey`      | `boolean` | ❌        | —       | Require the Meta (Cmd ⌘ on Mac, Windows key) key.          |
-| `isSpecialKey` | `boolean` | ❌        | `false` | Whether the key is a special key like `F5`, `Escape`, etc. |
-| `enabled`      | `boolean` | ❌        | `true`  | Whether this shortcut is active. Use to conditionally disable shortcuts. |
+| Property       | Type               | Required | Default | Description                                                |
+| -------------- | ------------------ | -------- | ------- | ---------------------------------------------------------- |
+| `key`          | `KeyboardKey`      | ✅        | —       | Keyboard key from the `KeyboardKey` enum.                  |
+| `ctrlKey`      | `boolean`          | ❌        | —       | Require the Ctrl key to be held.                           |
+| `altKey`       | `boolean`          | ❌        | —       | Require the Alt key to be held.                            |
+| `shiftKey`     | `boolean`          | ❌        | —       | Require the Shift key to be held.                          |
+| `metaKey`      | `boolean`          | ❌        | —       | Require the Meta (Cmd ⌘ on Mac, Windows key) to be held.  |
+| `isSpecialKey` | `boolean`          | ❌        | `false` | Set to `true` for special keys like F1-F12, Escape, etc.   |
+| `enabled`      | `boolean`          | ✅        | —       | Whether this shortcut is active. Required field.           |
 
 ### ShortcutOptions
 
-| Property    | Type                 | Required | Description                                    |
-| ----------- | -------------------- | -------- | ---------------------------------------------- |
-| `shortcuts` | `ShortcutConfig[]`   | ✅        | List of shortcut keys with optional modifiers. |
-| `onTrigger` | `(shortcut) => void` | ✅        | Callback fired when a shortcut is matched.     |
+| Property    | Type                               | Required | Description                                    |
+| ----------- | ---------------------------------- | -------- | ---------------------------------------------- |
+| `shortcuts` | `ShortcutConfig[]`                 | ✅        | Array of shortcut configurations.              |
+| `onTrigger` | `(shortcut: ShortcutConfig) => void` | ✅      | Callback fired when a shortcut is matched.     |
 
 ### Dependencies
 
 | Parameter | Type              | Required | Default | Description                                                |
 | --------- | ----------------- | -------- | ------- | ---------------------------------------------------------- |
-| `deps`    | `DependencyList`  | ❌        | `[]`    | Dependency array (like `useEffect`) to control when the shortcut handler re-runs. |
+| `deps`    | `DependencyList`  | ❌        | `[]`    | Dependency array to control when the shortcut handler re-runs. |
+
+### KeyboardKey Enum
+
+Use the `KeyboardKey` enum for type-safe key definitions:
+
+```typescript
+// Letter keys
+KeyboardKey.KeyA through KeyboardKey.KeyZ
+
+// Number keys
+KeyboardKey.Digit0 through KeyboardKey.Digit9
+
+// Special keys
+KeyboardKey.Enter, KeyboardKey.Escape, KeyboardKey.Space, 
+KeyboardKey.Backspace, KeyboardKey.Delete, KeyboardKey.Tab
+
+// Arrow keys
+KeyboardKey.ArrowUp, KeyboardKey.ArrowDown, 
+KeyboardKey.ArrowLeft, KeyboardKey.ArrowRight
+
+// Function keys
+KeyboardKey.F1 through KeyboardKey.F12
+
+// And more...
+```
+
+### Shortcuts Presets
+
+Pre-configured common shortcuts:
+
+```typescript
+ShortcutsPresets.SAVE(enabled?: boolean)      // Ctrl+S
+ShortcutsPresets.COPY(enabled?: boolean)      // Ctrl+C
+ShortcutsPresets.PASTE(enabled?: boolean)     // Ctrl+V
+ShortcutsPresets.UNDO(enabled?: boolean)      // Ctrl+Z
+ShortcutsPresets.REDO(enabled?: boolean)      // Ctrl+Shift+Z
+ShortcutsPresets.SELECT_ALL(enabled?: boolean) // Ctrl+A
+ShortcutsPresets.CLOSE(enabled?: boolean)     // Ctrl+W
+ShortcutsPresets.OPEN(enabled?: boolean)      // Ctrl+O
+```
 
 ---
 
 ## 🧩 Features
 
-* ✅ Multiple key combinations supported
-* ⌨️ Modifier key handling (Ctrl, Alt, Shift, Meta)
-* 🧠 Intelligent fallback if modifier keys are not specified
-* 🎯 `isSpecialKey` support for keys like `F1`–`F12`, `Escape`, etc.
-* 🔄 Cleans up listeners automatically on unmount
+* ✅ Type-safe keyboard key definitions with enums
+* ⌨️ Full modifier key support (Ctrl, Alt, Shift, Meta)
+* 🎯 Special key handling (F1–F12, Escape, Arrow keys, etc.)
+* 🔄 Automatic event listener cleanup on unmount
 * 🎛️ Conditional shortcuts with `enabled` property
-* 📦 Dependency tracking like `useEffect` for optimal performance
+* 📦 Dependency tracking for optimal performance
+* 🚀 Pre-configured common shortcuts via `ShortcutsPresets`
+* 🛡️ Prevents default browser behavior when shortcuts match
 
 ---
 
 ## 🧪 Example Use Cases
 
-* Open modals with `Ctrl + M`
-* Trigger save with `Ctrl + S` (only when editing is enabled)
-* Toggle theme with `Cmd + T`
-* Handle F-keys or Escape as actions
+* Save documents with Ctrl+S (only when editing is enabled)
+* Open command palette with Ctrl+K or Cmd+K
+* Toggle theme with Ctrl+T
+* Navigate with arrow keys or F-keys
+* Undo/redo with Ctrl+Z/Ctrl+Shift+Z (only when history exists)
+* Close modals with Escape
 * Conditionally enable shortcuts based on user permissions or app state
-* Undo/redo with `Ctrl + Z` / `Ctrl + Y` (only when history is available)
 
 ---
 
-## 📝 License
+## 📝 Notes
+
+* All shortcuts require the `enabled` property to be explicitly set
+* Modifier keys (ctrl, alt, shift, meta) are optional and default to undefined (any state matches)
+* Use `isSpecialKey: true` for non-alphanumeric keys like F5, Escape, Enter, etc.
+* The hook automatically prevents default browser behavior when a shortcut matches
+* Use the dependency array to control when shortcut handlers should update
+
+---
+
+## 📄 License
 
 MIT
