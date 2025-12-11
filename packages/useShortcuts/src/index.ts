@@ -152,8 +152,6 @@ type DigitKey =
     | KeyboardKey.Digit6 | KeyboardKey.Digit7 | KeyboardKey.Digit8
     | KeyboardKey.Digit9;
 
-type LetterOrDigitKey = LetterKey | DigitKey;
-
 // Base modifiers - optional for all shortcut types
 type ModifierKeys = {
     ctrlKey?: boolean;
@@ -167,11 +165,11 @@ type ShortcutConfig = ModifierKeys & {
     enabled: boolean;
 } & (
     | {
-        key: SpecialKey;
+        key: SpecialKey | DigitKey;
         isSpecialKey: true;
     }
     | {
-        key: LetterOrDigitKey;
+        key: LetterKey;
         isSpecialKey?: false; // Optional for letter/digit keys, defaults to false
     }
 );
@@ -266,4 +264,4 @@ const useShortcuts = ({ shortcuts, onTrigger }: ShortcutOptions, deps: Dependenc
 };
 
 export default useShortcuts;
-export { ShortcutsPresets, KeyboardKey  };
+export { ShortcutsPresets, KeyboardKey };
