@@ -137,4 +137,4 @@ We welcome contributions! Please see our [Contributing Guide](https://github.com
 
 ## License
 
-ISC © [fabiconcept](https://github.com/fabiconcept)
+[MIT License](https://github.com/fabiconcept/useverse/blob/main/LICENSE) © [fabiconcept](https://github.com/fabiconcept)
