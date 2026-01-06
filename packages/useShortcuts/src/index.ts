@@ -1,5 +1,47 @@
 import { useEffect, useCallback, DependencyList } from 'react';
 
+/**
+ * Detects if the current platform is macOS.
+ * Checks both navigator.platform and navigator.userAgent for reliability.
+ * 
+ * @returns {boolean} true if running on macOS, false otherwise
+ */
+const isMacOS = (): boolean => {
+    if (typeof window === 'undefined' || typeof navigator === 'undefined') {
+        return false;
+    }
+    
+    // Check platform first (most reliable)
+    const platform = navigator.platform?.toLowerCase() || '';
+    if (platform.startsWith('mac')) {
+        return true;
+    }
+    
+    // Fallback to userAgent check
+    const userAgent = navigator.userAgent?.toLowerCase() || '';
+    return userAgent.includes('mac') && !userAgent.includes('iphone') && !userAgent.includes('ipad');
+};
+
+// Define string literal types for better autocomplete
+type SpecialKeyValue = 
+    | 'Backspace' | 'Tab' | 'Enter' | 'Pause' | 'CapsLock' | 'Escape' 
+    | 'Space' | 'PageUp' | 'PageDown' | 'End' | 'Home'
+    | 'ArrowLeft' | 'ArrowUp' | 'ArrowRight' | 'ArrowDown'
+    | 'PrintScreen' | 'Insert' | 'Delete'
+    | 'F1' | 'F2' | 'F3' | 'F4' | 'F5' | 'F6' | 'F7' | 'F8' | 'F9' | 'F10' | 'F11' | 'F12'
+    | 'NumLock' | 'ScrollLock'
+    | 'Slash' | 'Comma' | 'Period' | 'Semicolon' | 'Quote' | 'BackQuote'
+    | 'Minus' | 'Equal' | 'BracketLeft' | 'BracketRight' | 'Backslash';
+
+type LetterKeyValue = 
+    | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M'
+    | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z';
+
+type DigitKeyValue = 
+    | 'Digit0' | 'Digit1' | 'Digit2' | 'Digit3' | 'Digit4'
+    | 'Digit5' | 'Digit6' | 'Digit7' | 'Digit8' | 'Digit9';
+
+// Enum for convenience (optional to import)
 enum KeyboardKey {
     Backspace = 'Backspace',
     Tab = 'Tab',
@@ -90,87 +132,44 @@ enum KeyboardKey {
     Backslash = 'Backslash',
 }
 
-// Special keys that use event.key directly
-type SpecialKey = 
-    | KeyboardKey.Backspace
-    | KeyboardKey.Tab
-    | KeyboardKey.Enter
-    | KeyboardKey.Pause
-    | KeyboardKey.CapsLock
-    | KeyboardKey.Escape
-    | KeyboardKey.Space
-    | KeyboardKey.PageUp
-    | KeyboardKey.PageDown
-    | KeyboardKey.End
-    | KeyboardKey.Home
-    | KeyboardKey.ArrowLeft
-    | KeyboardKey.ArrowUp
-    | KeyboardKey.ArrowRight
-    | KeyboardKey.ArrowDown
-    | KeyboardKey.PrintScreen
-    | KeyboardKey.Insert
-    | KeyboardKey.Delete
-    | KeyboardKey.F1
-    | KeyboardKey.F2
-    | KeyboardKey.F3
-    | KeyboardKey.F4
-    | KeyboardKey.F5
-    | KeyboardKey.F6
-    | KeyboardKey.F7
-    | KeyboardKey.F8
-    | KeyboardKey.F9
-    | KeyboardKey.F10
-    | KeyboardKey.F11
-    | KeyboardKey.F12
-    | KeyboardKey.NumLock
-    | KeyboardKey.ScrollLock
-    | KeyboardKey.Slash
-    | KeyboardKey.Comma
-    | KeyboardKey.Period
-    | KeyboardKey.Semicolon
-    | KeyboardKey.Quote
-    | KeyboardKey.BackQuote
-    | KeyboardKey.Minus
-    | KeyboardKey.Equal
-    | KeyboardKey.BracketLeft
-    | KeyboardKey.BracketRight
-    | KeyboardKey.Backslash;
-
-// Letter and digit keys that use event.code
-type LetterKey = 
-    | KeyboardKey.KeyA | KeyboardKey.KeyB | KeyboardKey.KeyC | KeyboardKey.KeyD
-    | KeyboardKey.KeyE | KeyboardKey.KeyF | KeyboardKey.KeyG | KeyboardKey.KeyH
-    | KeyboardKey.KeyI | KeyboardKey.KeyJ | KeyboardKey.KeyK | KeyboardKey.KeyL
-    | KeyboardKey.KeyM | KeyboardKey.KeyN | KeyboardKey.KeyO | KeyboardKey.KeyP
-    | KeyboardKey.KeyQ | KeyboardKey.KeyR | KeyboardKey.KeyS | KeyboardKey.KeyT
-    | KeyboardKey.KeyU | KeyboardKey.KeyV | KeyboardKey.KeyW | KeyboardKey.KeyX
-    | KeyboardKey.KeyY | KeyboardKey.KeyZ;
-
-type DigitKey = 
-    | KeyboardKey.Digit0 | KeyboardKey.Digit1 | KeyboardKey.Digit2
-    | KeyboardKey.Digit3 | KeyboardKey.Digit4 | KeyboardKey.Digit5
-    | KeyboardKey.Digit6 | KeyboardKey.Digit7 | KeyboardKey.Digit8
-    | KeyboardKey.Digit9;
-
-// Base modifiers - optional for all shortcut types
-type ModifierKeys = {
-    ctrlKey?: boolean;
+// Base properties shared by all shortcut configs
+type ShortcutConfigBase = {
+    key: LetterKeyValue | DigitKeyValue | SpecialKeyValue;
+    enabled: boolean;
     altKey?: boolean;
     shiftKey?: boolean;
-    metaKey?: boolean;
 };
 
-// Discriminated union based on key type
-type ShortcutConfig = ModifierKeys & {
-    enabled: boolean;
-} & (
+/**
+ * Shortcut configuration with platform-aware type safety.
+ * 
+ * When platformAware is true, you can only specify EITHER ctrlKey OR metaKey (not both).
+ * This prevents ambiguous configurations since the hook will automatically swap them based on OS.
+ */
+type ShortcutConfig = ShortcutConfigBase & (
     | {
-        key: SpecialKey | DigitKey;
-        isSpecialKey: true;
+        /**
+         * When true with ctrlKey, automatically becomes metaKey on macOS.
+         */
+        platformAware: true;
+        ctrlKey?: boolean;
+        metaKey?: never; // ← TypeScript error if you try to use both
     }
     | {
-        key: LetterKey;
-        isSpecialKey?: false; // Optional for letter/digit keys, defaults to false
+        /**
+         * When true with metaKey, automatically becomes ctrlKey on Windows/Linux.
+         */
+        platformAware: true;
+        metaKey?: boolean;
+        ctrlKey?: never; // ← TypeScript error if you try to use both
+    }
+    | {
+        /**
+         * When false or undefined, you can specify both keys manually for full control.
+         */
+        platformAware?: false;
+        ctrlKey?: boolean;
+        metaKey?: boolean;
     }
 );
 
@@ -240,13 +239,39 @@ const useShortcuts = ({ shortcuts, onTrigger }: ShortcutOptions, deps: Dependenc
             // Skip disabled shortcuts
             if (!shortcut.enabled) return false;
             
-            const keyMatch = shortcut.isSpecialKey 
-                ? code === shortcut.key 
-                : code === `Key${shortcut.key}`;
-            const ctrlMatch = shortcut.ctrlKey === undefined || shortcut.ctrlKey === ctrlKey;
+            // Apply OS-responsive key swapping if enabled
+            let expectedCtrl = shortcut.ctrlKey;
+            let expectedMeta = shortcut.metaKey;
+            
+            if (shortcut.platformAware) {
+                const isMac = isMacOS();
+                
+                if (isMac) {
+                    // On Mac: Ctrl becomes Cmd (Meta)
+                    if (shortcut.ctrlKey) {
+                        expectedMeta = true;
+                        expectedCtrl = undefined;
+                    }
+                } else {
+                    // On Windows/Linux: Cmd (Meta) becomes Ctrl
+                    if (shortcut.metaKey) {
+                        expectedCtrl = true;
+                        expectedMeta = undefined;
+                    }
+                }
+            }
+            
+            // Automatically detect if it's a letter key (single character A-Z)
+            const isLetterKey = shortcut.key.length === 1 && /^[A-Z]$/.test(shortcut.key);
+            
+            const keyMatch = isLetterKey 
+                ? code === `Key${shortcut.key}`
+                : code === shortcut.key;
+                
+            const ctrlMatch = expectedCtrl === undefined || expectedCtrl === ctrlKey;
             const altMatch = shortcut.altKey === undefined || shortcut.altKey === altKey;
             const shiftMatch = shortcut.shiftKey === undefined || shortcut.shiftKey === shiftKey;
-            const metaMatch = shortcut.metaKey === undefined || shortcut.metaKey === metaKey;
+            const metaMatch = expectedMeta === undefined || expectedMeta === metaKey;
 
             return keyMatch && ctrlMatch && altMatch && shiftMatch && metaMatch;
         });
@@ -264,4 +289,5 @@ const useShortcuts = ({ shortcuts, onTrigger }: ShortcutOptions, deps: Dependenc
 };
 
 export default useShortcuts;
-export { ShortcutsPresets, KeyboardKey };
+export { ShortcutsPresets, KeyboardKey, isMacOS };
+export type { ShortcutConfig, LetterKeyValue, DigitKeyValue, SpecialKeyValue };

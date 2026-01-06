@@ -71,7 +71,7 @@ This will:
 
 ---
 
-### 4. Build the Package (if needed)
+### 4. Build the Package (important)
 
 If your package requires compilation:
 

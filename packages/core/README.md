@@ -10,7 +10,7 @@ A comprehensive collection of practical React hooks designed to enhance web appl
 This core package bundles all useverse hooks into a single, convenient package:
 
 - 🎵 **useSoundEffect** - Add UI sound effects to interactive elements
-- ⌨️ **useShortcuts** - Implement keyboard shortcuts and hotkeys
+- ⌨️ **useShortcuts** - Implement cross-platform keyboard shortcuts with automatic OS detection
 - 📥 **useFileDownload** - Handle file downloads with status tracking
 
 ## Installation
@@ -26,7 +26,7 @@ pnpm add @useverse/core
 ## Quick Start
 
 ```jsx
-import { useSoundEffect, useShortcuts, useFileDownload } from '@useverse/core';
+import { useSoundEffect, useShortcuts, useFileDownload, ShortcutsPresets, isMacOS } from '@useverse/core';
 
 function FileManager() {
   // Configure sound effects for different actions
@@ -38,17 +38,22 @@ function FileManager() {
   // Manage downloads with status tracking
   const [downloadStatus, startDownload] = useFileDownload();
   
-  // Define keyboard shortcuts for file operations
+  // Define keyboard shortcuts with platform awareness
   useShortcuts({
     shortcuts: [
-      { key: 's', ctrlKey: true, shiftKey: true },  // Ctrl+Shift+S
-      { key: 'd', ctrlKey: true },                  // Ctrl+D
-      { key: 'Escape' },                            // Esc
+      ShortcutsPresets.SAVE(),                    // Ctrl/Cmd+S (works on all platforms!)
+      { 
+        key: 'D', 
+        ctrlKey: true, 
+        platformAware: true,                      // Auto-converts to Cmd on Mac
+        enabled: true 
+      },
+      { key: 'Escape', enabled: true },
     ],
     onTrigger: (shortcut) => {
-      if (shortcut.key === 's' && shortcut.ctrlKey && shortcut.shiftKey) {
+      if (shortcut.key === 'S') {
         handleSaveAll();
-      } else if (shortcut.key === 'd' && shortcut.ctrlKey) {
+      } else if (shortcut.key === 'D') {
         handleDownload();
       } else if (shortcut.key === 'Escape') {
         handleCancel();
@@ -66,6 +71,10 @@ function FileManager() {
       errorSound();
     }
   };
+
+  // Display platform-specific keyboard hints
+  const isMac = isMacOS();
+  const modKey = isMac ? '⌘' : 'Ctrl';
 
   return (
     <div className="file-manager">
@@ -91,8 +100,8 @@ function FileManager() {
       <div className="shortcuts-help">
         <h4>Keyboard Shortcuts</h4>
         <ul>
-          <li>Ctrl + Shift + S: Save all files</li>
-          <li>Ctrl + D: Download report</li>
+          <li>{modKey} + Shift + S: Save all files</li>
+          <li>{modKey} + D: Download report</li>
           <li>Esc: Cancel operation</li>
         </ul>
       </div>
