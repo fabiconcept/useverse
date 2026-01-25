@@ -1,0 +1,62 @@
+{
+  "name": "@useverse/profanity-guard",
+  "version": "1.0.0",
+  "description": "A flexible, production-ready TypeScript library for content moderation and profanity filtering with multiple severity levels and obfuscation detection",
+  "license": "ISC",
+  "author": "fabiconcept",
+  "type": "commonjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiconcept/useverse.git",
+    "directory": "packages/profanity-guard"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsup src/index.ts --dts --format esm,cjs",
+    "dev": "tsup src/index.ts --watch",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "profanity",
+    "filter",
+    "moderation",
+    "content",
+    "bad-words",
+    "profanity-filter",
+    "content-moderation",
+    "typescript",
+    "censorship",
+    "sanitize",
+    "chat-filter",
+    "comment-moderation",
+    "obscenity",
+    "swear-words"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^18.2.45",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.1.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}

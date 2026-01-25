@@ -1,0 +1,1993 @@
+[
+  {
+    "word": "damn",
+    "severity": "mild",
+    "alternatives": [
+      "darn",
+      "dang"
+    ],
+    "variants": [
+      "dam",
+      "damm",
+      "d@mn",
+      "d4mn"
+    ]
+  },
+  {
+    "word": "hell",
+    "severity": "mild",
+    "alternatives": [
+      "heck"
+    ],
+    "variants": [
+      "h3ll",
+      "h-e-l-l",
+      "hel"
+    ]
+  },
+  {
+    "word": "crap",
+    "severity": "mild",
+    "alternatives": [
+      "crud",
+      "rubbish"
+    ],
+    "variants": [
+      "cr@p",
+      "krap"
+    ]
+  },
+  {
+    "word": "piss",
+    "severity": "mild",
+    "alternatives": [
+      "ticked",
+      "annoyed"
+    ],
+    "variants": [
+      "p1ss",
+      "p!ss",
+      "pis"
+    ]
+  },
+  {
+    "word": "suck",
+    "severity": "mild",
+    "alternatives": [
+      "stink",
+      "poor"
+    ],
+    "variants": [
+      "succ",
+      "sux",
+      "sukk"
+    ]
+  },
+  {
+    "word": "pissed",
+    "severity": "mild",
+    "alternatives": [
+      "angry",
+      "upset"
+    ],
+    "variants": [
+      "p1ssed",
+      "p!ssed",
+      "pist"
+    ]
+  },
+  {
+    "word": "stupid",
+    "severity": "mild",
+    "alternatives": [
+      "unwise",
+      "silly"
+    ],
+    "variants": [
+      "stup1d",
+      "stoopid",
+      "stewpid"
+    ]
+  },
+  {
+    "word": "dumb",
+    "severity": "mild",
+    "alternatives": [
+      "silly",
+      "unwise"
+    ],
+    "variants": [
+      "dum",
+      "dumbass",
+      "dumass"
+    ]
+  },
+  {
+    "word": "spam",
+    "severity": "mild",
+    "alternatives": [
+      "junk",
+      "unwanted message"
+    ],
+    "variants": [
+      "sp@m"
+    ]
+  },
+  {
+    "word": "sucks",
+    "severity": "mild",
+    "alternatives": [
+      "is poor",
+      "is bad"
+    ],
+    "variants": [
+      "sukks",
+      "suks",
+      "sux"
+    ]
+  },
+  {
+    "word": "git",
+    "severity": "mild",
+    "alternatives": [
+      "fool"
+    ],
+    "variants": []
+  },
+  {
+    "word": "bloody",
+    "severity": "mild",
+    "alternatives": [
+      "very"
+    ],
+    "variants": [
+      "bl00dy"
+    ]
+  },
+  {
+    "word": "bugger",
+    "severity": "mild",
+    "alternatives": [
+      "darn"
+    ],
+    "variants": [
+      "buggr"
+    ]
+  },
+  {
+    "word": "screwed",
+    "severity": "mild",
+    "alternatives": [
+      "in trouble"
+    ],
+    "variants": [
+      "skrewed"
+    ]
+  },
+  {
+    "word": "jesus christ",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "jeezus",
+      "jfc"
+    ]
+  },
+  {
+    "word": "omg",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "oh my god",
+      "o.m.g"
+    ]
+  },
+  {
+    "word": "boobs",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b00bs",
+      "bewbs",
+      "boobies"
+    ]
+  },
+  {
+    "word": "sex",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s3x",
+      "secks"
+    ]
+  },
+  {
+    "word": "bussin",
+    "severity": "mild",
+    "alternatives": [
+      "amazing",
+      "great"
+    ],
+    "variants": [
+      "bussing"
+    ]
+  },
+  {
+    "word": "cap",
+    "severity": "mild",
+    "alternatives": [
+      "lie"
+    ],
+    "variants": [
+      "no cap",
+      "nocap"
+    ]
+  },
+  {
+    "word": "sus",
+    "severity": "mild",
+    "alternatives": [
+      "suspicious"
+    ],
+    "variants": [
+      "suss",
+      "susss"
+    ]
+  },
+  {
+    "word": "simp",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s1mp",
+      "simping"
+    ]
+  },
+  {
+    "word": "karen",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "k@ren"
+    ]
+  },
+  {
+    "word": "boomer",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b00mer",
+      "ok boomer"
+    ]
+  },
+  {
+    "word": "triggered",
+    "severity": "mild",
+    "alternatives": [
+      "upset"
+    ],
+    "variants": [
+      "trigg3red",
+      "trig"
+    ]
+  },
+  {
+    "word": "snowflake",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "sn0wflake"
+    ]
+  },
+  {
+    "word": "smash",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "smash or pass"
+    ]
+  },
+  {
+    "word": "daddy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "zaddy"
+    ]
+  },
+  {
+    "word": "mommy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "mami"
+    ]
+  },
+  {
+    "word": "thicc",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "thick",
+      "thic"
+    ]
+  },
+  {
+    "word": "cheugy",
+    "severity": "mild",
+    "alternatives": [
+      "uncool"
+    ],
+    "variants": []
+  },
+  {
+    "word": "ratio",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "L + ratio"
+    ]
+  },
+  {
+    "word": "cooked",
+    "severity": "mild",
+    "alternatives": [
+      "ruined",
+      "done for"
+    ],
+    "variants": [
+      "cook",
+      "cooking"
+    ]
+  },
+  {
+    "word": "ratioed",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ratio'd"
+    ]
+  },
+  {
+    "word": "salty",
+    "severity": "mild",
+    "alternatives": [
+      "bitter",
+      "upset"
+    ],
+    "variants": [
+      "s@lty"
+    ]
+  },
+  {
+    "word": "trash",
+    "severity": "mild",
+    "alternatives": [
+      "bad",
+      "terrible"
+    ],
+    "variants": [
+      "tr@sh",
+      "garbage"
+    ]
+  },
+  {
+    "word": "toxic",
+    "severity": "mild",
+    "alternatives": [
+      "harmful"
+    ],
+    "variants": [
+      "t0xic"
+    ]
+  },
+  {
+    "word": "cringe",
+    "severity": "mild",
+    "alternatives": [
+      "awkward"
+    ],
+    "variants": [
+      "cringey",
+      "cringy"
+    ]
+  },
+  {
+    "word": "mid",
+    "severity": "mild",
+    "alternatives": [
+      "mediocre",
+      "average"
+    ],
+    "variants": []
+  },
+  {
+    "word": "clown",
+    "severity": "mild",
+    "alternatives": [
+      "fool"
+    ],
+    "variants": [
+      "cl0wn",
+      "clowning"
+    ]
+  },
+  {
+    "word": "noob",
+    "severity": "mild",
+    "alternatives": [
+      "beginner"
+    ],
+    "variants": [
+      "n00b",
+      "newb",
+      "nub"
+    ]
+  },
+  {
+    "word": "pwned",
+    "severity": "mild",
+    "alternatives": [
+      "beaten"
+    ],
+    "variants": [
+      "owned",
+      "pwn"
+    ]
+  },
+  {
+    "word": "rekt",
+    "severity": "mild",
+    "alternatives": [
+      "destroyed"
+    ],
+    "variants": [
+      "wrecked",
+      "r3kt"
+    ]
+  },
+  {
+    "word": "git gud",
+    "severity": "mild",
+    "alternatives": [
+      "get better"
+    ],
+    "variants": [
+      "get good",
+      "gitgud"
+    ]
+  },
+  {
+    "word": "ez",
+    "severity": "mild",
+    "alternatives": [
+      "easy"
+    ],
+    "variants": [
+      "e-z",
+      "ezpz"
+    ]
+  },
+  {
+    "word": "gg ez",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ggez"
+    ]
+  },
+  {
+    "word": "tryhard",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "try hard",
+      "try-hard"
+    ]
+  },
+  {
+    "word": "sweaty",
+    "severity": "mild",
+    "alternatives": [
+      "overly competitive"
+    ],
+    "variants": [
+      "sweat",
+      "sweats"
+    ]
+  },
+  {
+    "word": "based",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b@sed"
+    ]
+  },
+  {
+    "word": "redpilled",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "red pilled",
+      "redpill"
+    ]
+  },
+  {
+    "word": "bluepilled",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "blue pilled",
+      "bluepill"
+    ]
+  },
+  {
+    "word": "cope",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "copium",
+      "coping"
+    ]
+  },
+  {
+    "word": "seethe",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "seething",
+      "mald",
+      "malding"
+    ]
+  },
+  {
+    "word": "rent free",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "rentfree",
+      "living rent free"
+    ]
+  },
+  {
+    "word": "touch grass",
+    "severity": "mild",
+    "alternatives": [
+      "go outside"
+    ],
+    "variants": [
+      "touchgrass"
+    ]
+  },
+  {
+    "word": "normie",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "norm1e",
+      "normalfag"
+    ]
+  },
+  {
+    "word": "chad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "gigachad",
+      "giga chad"
+    ]
+  },
+  {
+    "word": "virgin",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "v1rgin"
+    ]
+  },
+  {
+    "word": "beta",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "beta male",
+      "soy boy",
+      "soyboy"
+    ]
+  },
+  {
+    "word": "alpha",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "alpha male",
+      "sigma",
+      "sigma male"
+    ]
+  },
+  {
+    "word": "woke",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "w0ke"
+    ]
+  },
+  {
+    "word": "hillbilly",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "hill billy"
+    ]
+  },
+  {
+    "word": "lard",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "lardass",
+      "lard ass"
+    ]
+  },
+  {
+    "word": "hussy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "hussie"
+    ]
+  },
+  {
+    "word": "thirsty",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "th1rsty"
+    ]
+  },
+  {
+    "word": "desperate",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "despo"
+    ]
+  },
+  {
+    "word": "creep",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "creeper",
+      "creepy"
+    ]
+  },
+  {
+    "word": "kinky",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "k1nky"
+    ]
+  },
+  {
+    "word": "aroused",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ar0used"
+    ]
+  },
+  {
+    "word": "climax",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "cl1max"
+    ]
+  },
+  {
+    "word": "gangsta",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "gangster"
+    ]
+  },
+  {
+    "word": "pothead",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pot head",
+      "stoner"
+    ]
+  },
+  {
+    "word": "420",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "four twenty"
+    ]
+  },
+  {
+    "word": "blaze it",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "blazeit"
+    ]
+  },
+  {
+    "word": "adderall",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "addies",
+      "speed"
+    ]
+  },
+  {
+    "word": "emo",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "3mo"
+    ]
+  },
+  {
+    "word": "crazy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "cr@zy",
+      "cray cray"
+    ]
+  },
+  {
+    "word": "insane",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "1nsane"
+    ]
+  },
+  {
+    "word": "nuts",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "nutso",
+      "nutcase"
+    ]
+  },
+  {
+    "word": "loco",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "l0co"
+    ]
+  },
+  {
+    "word": "derp",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "d3rp",
+      "derpy"
+    ]
+  },
+  {
+    "word": "dwarf",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "dw@rf"
+    ]
+  },
+  {
+    "word": "down bad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "downbad"
+    ]
+  },
+  {
+    "word": "sus",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "sussy",
+      "sussy baka"
+    ]
+  },
+  {
+    "word": "uwu",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "owo",
+      "uwu"
+    ]
+  },
+  {
+    "word": "gyatt",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "gyat"
+    ]
+  },
+  {
+    "word": "rizz",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "r1zz"
+    ]
+  },
+  {
+    "word": "skibidi",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "skibidy"
+    ]
+  },
+  {
+    "word": "ohio",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "0hio"
+    ]
+  },
+  {
+    "word": "sigma",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s1gma"
+    ]
+  },
+  {
+    "word": "mewing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "mew"
+    ]
+  },
+  {
+    "word": "mogging",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "mog",
+      "mogged"
+    ]
+  },
+  {
+    "word": "looksmaxxing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "looksmax"
+    ]
+  },
+  {
+    "word": "sheeple",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "she3ple"
+    ]
+  },
+  {
+    "word": "npc",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "n.p.c"
+    ]
+  },
+  {
+    "word": "karen",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "k@ren"
+    ]
+  },
+  {
+    "word": "chad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ch@d"
+    ]
+  },
+  {
+    "word": "stacy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "st@cy"
+    ]
+  },
+  {
+    "word": "becky",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b3cky"
+    ]
+  },
+  {
+    "word": "whitepill",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "white pill"
+    ]
+  },
+  {
+    "word": "itt",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "i.t.t",
+      "in this thread"
+    ]
+  },
+  {
+    "word": "op",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "o.p",
+      "original poster"
+    ]
+  },
+  {
+    "word": "lurk moar",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "lurk more",
+      "newfag"
+    ]
+  },
+  {
+    "word": "oldfag",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "old fag"
+    ]
+  },
+  {
+    "word": "summerfag",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "summer fag"
+    ]
+  },
+  {
+    "word": "copypasta",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "copy pasta"
+    ]
+  },
+  {
+    "word": "bait",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b8",
+      "b@it"
+    ]
+  },
+  {
+    "word": "ese",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "3se"
+    ]
+  },
+  {
+    "word": "vato",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "v@to"
+    ]
+  },
+  {
+    "word": "jerry",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "j3rry"
+    ]
+  },
+  {
+    "word": "hun",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "huns"
+    ]
+  },
+  {
+    "word": "limey",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "l1mey"
+    ]
+  },
+  {
+    "word": "pommie",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pom",
+      "pommy"
+    ]
+  },
+  {
+    "word": "seppo",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s3ppo"
+    ]
+  },
+  {
+    "word": "convict",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "c0nvict"
+    ]
+  },
+  {
+    "word": "bogan",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b0gan"
+    ]
+  },
+  {
+    "word": "chav",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ch@v"
+    ]
+  },
+  {
+    "word": "ned",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "n3d"
+    ]
+  },
+  {
+    "word": "townie",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "t0wnie"
+    ]
+  },
+  {
+    "word": "skanger",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "sk@nger"
+    ]
+  },
+  {
+    "word": "simpleton",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s1mpleton"
+    ]
+  },
+  {
+    "word": "high functioning",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "highfunctioning"
+    ]
+  },
+  {
+    "word": "low functioning",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "lowfunctioning"
+    ]
+  },
+  {
+    "word": "neet",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "n.e.e.t",
+      "n33t"
+    ]
+  },
+  {
+    "word": "consoomer",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "consoom",
+      "consooming"
+    ]
+  },
+  {
+    "word": "npc meme",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "npcmeme"
+    ]
+  },
+  {
+    "word": "wojakposting",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "wojak posting"
+    ]
+  },
+  {
+    "word": "pepe posting",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pepeposting"
+    ]
+  },
+  {
+    "word": "doomer",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "d00mer"
+    ]
+  },
+  {
+    "word": "bloomer",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "bl00mer"
+    ]
+  },
+  {
+    "word": "zoomer",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "z00mer"
+    ]
+  },
+  {
+    "word": "soyjak",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "soy jak"
+    ]
+  },
+  {
+    "word": "gigachad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "giga chad"
+    ]
+  },
+  {
+    "word": "yes chad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "yeschad"
+    ]
+  },
+  {
+    "word": "virgin vs chad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "virginvschad"
+    ]
+  },
+  {
+    "word": "chad stride",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "chadstride"
+    ]
+  },
+  {
+    "word": "sexhaver",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "sex haver"
+    ]
+  },
+  {
+    "word": "volcel",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "vol cel"
+    ]
+  },
+  {
+    "word": "gymcel",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "gym cel"
+    ]
+  },
+  {
+    "word": "locationcel",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "location cel"
+    ]
+  },
+  {
+    "word": "statusmaxxing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "statusmax"
+    ]
+  },
+  {
+    "word": "moneymaxxing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "moneymax"
+    ]
+  },
+  {
+    "word": "surgerymaxxing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "surgerymax"
+    ]
+  },
+  {
+    "word": "geomaxxing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "geomax"
+    ]
+  },
+  {
+    "word": "looks theory",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "lookstheory"
+    ]
+  },
+  {
+    "word": "hunter eyes",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "huntereyes"
+    ]
+  },
+  {
+    "word": "canthal tilt",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "canthaltilt"
+    ]
+  },
+  {
+    "word": "jawline",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "j@wline"
+    ]
+  },
+  {
+    "word": "heightmaxxing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "heightmax"
+    ]
+  },
+  {
+    "word": "leg lengthening",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "leglengthening"
+    ]
+  },
+  {
+    "word": "chad only",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "chadonly"
+    ]
+  },
+  {
+    "word": "smv",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s.m.v",
+      "sexual market value"
+    ]
+  },
+  {
+    "word": "lms",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "l.m.s",
+      "looks money status"
+    ]
+  },
+  {
+    "word": "pua",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "p.u.a",
+      "pick up artist"
+    ]
+  },
+  {
+    "word": "kino",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "k1no"
+    ]
+  },
+  {
+    "word": "amog",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "a.m.o.g"
+    ]
+  },
+  {
+    "word": "hb",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "h.b",
+      "hot babe"
+    ]
+  },
+  {
+    "word": "oneitis",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "one itis"
+    ]
+  },
+  {
+    "word": "plate spinning",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "platespinning"
+    ]
+  },
+  {
+    "word": "comfort test",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "comforttest"
+    ]
+  },
+  {
+    "word": "soft next",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "softnext"
+    ]
+  },
+  {
+    "word": "hard next",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "hardnext"
+    ]
+  },
+  {
+    "word": "body count",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "bodycount"
+    ]
+  },
+  {
+    "word": "n count",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ncount"
+    ]
+  },
+  {
+    "word": "pair bonding",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pairbonding"
+    ]
+  },
+  {
+    "word": "trad",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "tradwife",
+      "trad wife"
+    ]
+  },
+  {
+    "word": "pickme",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pick me",
+      "pick-me"
+    ]
+  },
+  {
+    "word": "nlogs",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "nlog",
+      "not like other girls"
+    ]
+  },
+  {
+    "word": "nlob",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "not like other boys"
+    ]
+  },
+  {
+    "word": "hvm",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "h.v.m",
+      "high value man"
+    ]
+  },
+  {
+    "word": "hvw",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "h.v.w",
+      "high value woman"
+    ]
+  },
+  {
+    "word": "levelup",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "level up"
+    ]
+  },
+  {
+    "word": "queen",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "qu33n",
+      "kween"
+    ]
+  },
+  {
+    "word": "zaddy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "z@ddy"
+    ]
+  },
+  {
+    "word": "slay",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "sl@y",
+      "slaying"
+    ]
+  },
+  {
+    "word": "ate",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "ate that",
+      "ate and left no crumbs"
+    ]
+  },
+  {
+    "word": "period",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "periodt",
+      "purr"
+    ]
+  },
+  {
+    "word": "wig",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "wig flew",
+      "wig snatched"
+    ]
+  },
+  {
+    "word": "tea",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "t3a",
+      "spill the tea"
+    ]
+  },
+  {
+    "word": "shade",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "throwing shade"
+    ]
+  },
+  {
+    "word": "dragged",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "drag"
+    ]
+  },
+  {
+    "word": "read",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "reading",
+      "read to filth"
+    ]
+  },
+  {
+    "word": "scalped",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "scalp"
+    ]
+  },
+  {
+    "word": "pressed",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pr3ssed"
+    ]
+  },
+  {
+    "word": "bothered",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b0thered"
+    ]
+  },
+  {
+    "word": "stan",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "st@n",
+      "stanning"
+    ]
+  },
+  {
+    "word": "oomf",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "o.o.m.f",
+      "one of my followers"
+    ]
+  },
+  {
+    "word": "moots",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "m00ts",
+      "mutuals"
+    ]
+  },
+  {
+    "word": "subtweet",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "sub tweet"
+    ]
+  },
+  {
+    "word": "vague post",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "vaguepost"
+    ]
+  },
+  {
+    "word": "rant",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "r@nt"
+    ]
+  },
+  {
+    "word": "vent",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "v3nt"
+    ]
+  },
+  {
+    "word": "cancel",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "c@ncel",
+      "cancelled",
+      "canceled"
+    ]
+  },
+  {
+    "word": "ratio",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "rati0",
+      "get ratiod"
+    ]
+  },
+  {
+    "word": "main character",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "maincharacter",
+      "mc energy"
+    ]
+  },
+  {
+    "word": "npc energy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "npcenergy"
+    ]
+  },
+  {
+    "word": "built different",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "builtdifferent"
+    ]
+  },
+  {
+    "word": "different breed",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "differentbreed"
+    ]
+  },
+  {
+    "word": "him",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "he's him",
+      "let him cook"
+    ]
+  },
+  {
+    "word": "her",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "she's her"
+    ]
+  },
+  {
+    "word": "they",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "they're them"
+    ]
+  },
+  {
+    "word": "glazing",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "glaze",
+      "glazer"
+    ]
+  },
+  {
+    "word": "glazer",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "gl@zer"
+    ]
+  },
+  {
+    "word": "fanum tax",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "fanumtax"
+    ]
+  },
+  {
+    "word": "goofy ahh",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "goofyahh"
+    ]
+  },
+  {
+    "word": "zesty",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "z3sty"
+    ]
+  },
+  {
+    "word": "fruity",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "fru1ty"
+    ]
+  },
+  {
+    "word": "sassy",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "s@ssy"
+    ]
+  },
+  {
+    "word": "pocket watching",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "pocketwatching"
+    ]
+  },
+  {
+    "word": "broke boi",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "brokeboi",
+      "broke boy"
+    ]
+  },
+  {
+    "word": "dusty",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "dusty man"
+    ]
+  },
+  {
+    "word": "bum",
+    "severity": "mild",
+    "alternatives": [],
+    "variants": [
+      "b*m"
+    ]
+  },
+  {
+    "word": "傻子",
+    "severity": "mild",
+    "alternatives": [
+      "笨蛋",
+      "糊涂"
+    ]
+  },
+  {
+    "word": "屎",
+    "severity": "mild",
+    "alternatives": [
+      "废物"
+    ]
+  },
+  {
+    "word": "垃圾",
+    "severity": "mild",
+    "alternatives": [
+      "废物",
+      "无用"
+    ]
+  },
+  {
+    "word": "废物",
+    "severity": "mild",
+    "alternatives": [
+      "无用",
+      "没用"
+    ]
+  },
+  {
+    "word": "muc",
+    "severity": "mild",
+    "alternatives": [
+      "messy person"
+    ]
+  },
+  {
+    "word": "feck",
+    "severity": "mild",
+    "alternatives": [
+      "heck",
+      "darn"
+    ]
+  },
+  {
+    "word": "feckin",
+    "severity": "mild",
+    "alternatives": [
+      "darn",
+      "darned"
+    ]
+  },
+  {
+    "word": "amadán",
+    "severity": "mild",
+    "alternatives": [
+      "fool",
+      "silly person"
+    ]
+  },
+  {
+    "word": "eejit",
+    "severity": "mild",
+    "alternatives": [
+      "fool",
+      "idiot"
+    ]
+  },
+  {
+    "word": "lúdramán",
+    "severity": "mild",
+    "alternatives": [
+      "lazy person"
+    ]
+  },
+  {
+    "word": "balbhán",
+    "severity": "mild",
+    "alternatives": [
+      "mute person"
+    ]
+  },
+  {
+    "word": "güey",
+    "severity": "mild",
+    "alternatives": [
+      "amigo",
+      "tipo"
+    ]
+  },
+  {
+    "word": "wey",
+    "severity": "mild",
+    "alternatives": [
+      "amigo",
+      "tipo"
+    ]
+  },
+  {
+    "word": "diablos",
+    "severity": "mild",
+    "alternatives": [
+      "rayos"
+    ]
+  },
+  {
+    "word": "demonios",
+    "severity": "mild",
+    "alternatives": [
+      "rayos"
+    ]
+  },
+  {
+    "word": "basura",
+    "severity": "mild",
+    "alternatives": [
+      "porquería",
+      "desecho"
+    ],
+    "variants": [
+      "basurilla"
+    ]
+  }
+]

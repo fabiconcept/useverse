@@ -1,0 +1,2199 @@
+[
+  {
+    "word": "shit",
+    "severity": "moderate",
+    "alternatives": [
+      "shoot",
+      "crap",
+      "stuff"
+    ],
+    "variants": [
+      "sh1t",
+      "sh!t",
+      "shyt",
+      "sht",
+      "sh*t",
+      "s hit",
+      "shite",
+      "shiit",
+      "shiet",
+      "$hit"
+    ]
+  },
+  {
+    "word": "ass",
+    "severity": "moderate",
+    "alternatives": [
+      "butt",
+      "rear"
+    ],
+    "variants": [
+      "a$$",
+      "azz",
+      "asz",
+      "@ss",
+      "a ss"
+    ]
+  },
+  {
+    "word": "arse",
+    "severity": "moderate",
+    "alternatives": [
+      "butt",
+      "rear"
+    ],
+    "variants": [
+      "a$$e",
+      "azz",
+      "asz",
+      "@se",
+      "a se"
+    ]
+  },
+  {
+    "word": "asshole",
+    "severity": "moderate",
+    "alternatives": [
+      "butt-hole",
+      "rear hole"
+    ],
+    "variants": [
+      "a$$hole",
+      "a**hole",
+      "arsehole",
+      "a-hole",
+      "ahole",
+      "@sshole",
+      "assh0le",
+      "assholes",
+      "a$$holes",
+      "a**holes",
+      "arseholes",
+      "a-holes",
+      "aholes",
+      "@ssholes",
+      "assh0les"
+    ]
+  },
+  {
+    "word": "bitch",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk",
+      "mean person"
+    ],
+    "variants": [
+      "b1tch",
+      "b!tch",
+      "biatch",
+      "biotch",
+      "beotch",
+      "b*tch",
+      "b itch",
+      "bicth",
+      "beyotch"
+    ]
+  },
+  {
+    "word": "bastard",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk",
+      "creep"
+    ],
+    "variants": [
+      "b@stard",
+      "bast@rd",
+      "bustard",
+      "b*stard"
+    ]
+  },
+  {
+    "word": "dick",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk",
+      "mean person"
+    ],
+    "variants": [
+      "d1ck",
+      "d!ck",
+      "dik",
+      "d*ck",
+      "dck"
+    ]
+  },
+  {
+    "word": "prick",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "pr1ck",
+      "pr!ck",
+      "prik"
+    ]
+  },
+  {
+    "word": "asshole",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "a$$hole",
+      "a**hole",
+      "arsehole",
+      "a-hole",
+      "ahole",
+      "@sshole",
+      "assh0le"
+    ]
+  },
+  {
+    "word": "bullshit",
+    "severity": "moderate",
+    "alternatives": [
+      "nonsense",
+      "rubbish"
+    ],
+    "variants": [
+      "bull$hit",
+      "bullsh1t",
+      "bs",
+      "b.s.",
+      "bulls**t"
+    ]
+  },
+  {
+    "word": "idiot",
+    "severity": "moderate",
+    "alternatives": [
+      "silly person",
+      "foolish person"
+    ],
+    "variants": [
+      "1diot",
+      "!diot"
+    ]
+  },
+  {
+    "word": "moron",
+    "severity": "moderate",
+    "alternatives": [
+      "fool"
+    ],
+    "variants": [
+      "m0ron",
+      "mor0n"
+    ]
+  },
+  {
+    "word": "imbecile",
+    "severity": "moderate",
+    "alternatives": [
+      "fool"
+    ],
+    "variants": [
+      "imb3cile"
+    ]
+  },
+  {
+    "word": "scam",
+    "severity": "moderate",
+    "alternatives": [
+      "fraud",
+      "scheme"
+    ],
+    "variants": [
+      "sc@m"
+    ]
+  },
+  {
+    "word": "wtf",
+    "severity": "moderate",
+    "alternatives": [
+      "what"
+    ],
+    "variants": [
+      "w.t.f",
+      "wth",
+      "what the fuck"
+    ]
+  },
+  {
+    "word": "douche",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "doosh",
+      "dousch"
+    ]
+  },
+  {
+    "word": "douchebag",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "dooshbag",
+      "d-bag",
+      "dbag"
+    ]
+  },
+  {
+    "word": "jackass",
+    "severity": "moderate",
+    "alternatives": [
+      "fool",
+      "jerk"
+    ],
+    "variants": [
+      "jack@ss",
+      "jack-ass"
+    ]
+  },
+  {
+    "word": "sob",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "s.o.b",
+      "son of a bitch"
+    ]
+  },
+  {
+    "word": "pussy",
+    "severity": "moderate",
+    "alternatives": [
+      "coward"
+    ],
+    "variants": [
+      "p*ssy",
+      "puss",
+      "pu$$y"
+    ]
+  },
+  {
+    "word": "cock",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "c0ck",
+      "cok",
+      "c**k"
+    ]
+  },
+  {
+    "word": "bollocks",
+    "severity": "moderate",
+    "alternatives": [
+      "nonsense"
+    ],
+    "variants": [
+      "b0llocks",
+      "bollox"
+    ]
+  },
+  {
+    "word": "wanker",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "w@nker",
+      "wankr"
+    ]
+  },
+  {
+    "word": "tosser",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "t0sser"
+    ]
+  },
+  {
+    "word": "twat",
+    "severity": "moderate",
+    "alternatives": [
+      "fool"
+    ],
+    "variants": [
+      "tw@t"
+    ]
+  },
+  {
+    "word": "pissoff",
+    "severity": "moderate",
+    "alternatives": [
+      "go away"
+    ],
+    "variants": [
+      "piss off",
+      "piss-off"
+    ]
+  },
+  {
+    "word": "goddamn",
+    "severity": "moderate",
+    "alternatives": [
+      "darn"
+    ],
+    "variants": [
+      "god damn",
+      "goddam",
+      "g-d",
+      "gd"
+    ]
+  },
+  {
+    "word": "cracker",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "crakka",
+      "cracka"
+    ]
+  },
+  {
+    "word": "honkey",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "honky",
+      "honkie"
+    ]
+  },
+  {
+    "word": "die",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "d1e"
+    ]
+  },
+  {
+    "word": "cancer",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "canser",
+      "c@ncer"
+    ]
+  },
+  {
+    "word": "autism",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "autist",
+      "autistic",
+      "aut1sm"
+    ]
+  },
+  {
+    "word": "tits",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "t1ts",
+      "titties",
+      "tiddies"
+    ]
+  },
+  {
+    "word": "penis",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "pen1s",
+      "p3nis",
+      "peen"
+    ]
+  },
+  {
+    "word": "vagina",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "vag1na",
+      "vag",
+      "cooch",
+      "cooter"
+    ]
+  },
+  {
+    "word": "masturbate",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "m@sturbate",
+      "fap",
+      "wank",
+      "jerk off"
+    ]
+  },
+  {
+    "word": "porn",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "p0rn",
+      "pr0n",
+      "pron",
+      "p**n"
+    ]
+  },
+  {
+    "word": "hentai",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "h3ntai"
+    ]
+  },
+  {
+    "word": "nude",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "nud3",
+      "nudes"
+    ]
+  },
+  {
+    "word": "thot",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "th0t"
+    ]
+  },
+  {
+    "word": "incel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "1ncel"
+    ]
+  },
+  {
+    "word": "cuck",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "cucked",
+      "c*ck"
+    ]
+  },
+  {
+    "word": "blackpilled",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "black pilled",
+      "blackpill"
+    ]
+  },
+  {
+    "word": "goon",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gooning",
+      "gooner"
+    ]
+  },
+  {
+    "word": "coomer",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "c00mer"
+    ]
+  },
+  {
+    "word": "degenerate",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "degen",
+      "degens"
+    ]
+  },
+  {
+    "word": "libtard",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "lib tard"
+    ]
+  },
+  {
+    "word": "commie",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "communist"
+    ]
+  },
+  {
+    "word": "slave",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "sl@ve",
+      "slavery"
+    ]
+  },
+  {
+    "word": "cholo",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "ch0lo"
+    ]
+  },
+  {
+    "word": "gringo",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gr1ngo"
+    ]
+  },
+  {
+    "word": "gypsy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gypsie"
+    ]
+  },
+  {
+    "word": "redneck",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "red neck"
+    ]
+  },
+  {
+    "word": "white trash",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "whitetrash"
+    ]
+  },
+  {
+    "word": "trailer trash",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "trailertrash"
+    ]
+  },
+  {
+    "word": "trap",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "tr@p"
+    ]
+  },
+  {
+    "word": "sissy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "s1ssy"
+    ]
+  },
+  {
+    "word": "queer",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "qu33r"
+    ]
+  },
+  {
+    "word": "poof",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "poofter"
+    ]
+  },
+  {
+    "word": "pansy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "p@nsy"
+    ]
+  },
+  {
+    "word": "fruit",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "fruitcake"
+    ]
+  },
+  {
+    "word": "aids",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "a1ds",
+      "aIds"
+    ]
+  },
+  {
+    "word": "hiv",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "h1v"
+    ]
+  },
+  {
+    "word": "fatass",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "fat ass",
+      "fat@ss"
+    ]
+  },
+  {
+    "word": "whale",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "wh@le"
+    ]
+  },
+  {
+    "word": "landwhale",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "land whale"
+    ]
+  },
+  {
+    "word": "hamplanet",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "ham planet"
+    ]
+  },
+  {
+    "word": "porker",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "p0rker"
+    ]
+  },
+  {
+    "word": "butterface",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "butter face"
+    ]
+  },
+  {
+    "word": "fugly",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "f*ugly"
+    ]
+  },
+  {
+    "word": "skank",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "sk@nk",
+      "skanky"
+    ]
+  },
+  {
+    "word": "tramp",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "tr@mp"
+    ]
+  },
+  {
+    "word": "floozy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "floozie"
+    ]
+  },
+  {
+    "word": "ho",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "hoes",
+      "hoez"
+    ]
+  },
+  {
+    "word": "perv",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "pervert",
+      "p3rv"
+    ]
+  },
+  {
+    "word": "pervy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "perverted"
+    ]
+  },
+  {
+    "word": "perver",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "perv3rt"
+    ]
+  },
+  {
+    "word": "orgy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "0rgy"
+    ]
+  },
+  {
+    "word": "69",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "sixty nine"
+    ]
+  },
+  {
+    "word": "dildo",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "d1ldo"
+    ]
+  },
+  {
+    "word": "vibrator",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "v1brator"
+    ]
+  },
+  {
+    "word": "fleshlight",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "flesh light"
+    ]
+  },
+  {
+    "word": "bdsm",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "b.d.s.m"
+    ]
+  },
+  {
+    "word": "bondage",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "b0ndage"
+    ]
+  },
+  {
+    "word": "dominatrix",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "domme",
+      "dom"
+    ]
+  },
+  {
+    "word": "fetish",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "f3tish"
+    ]
+  },
+  {
+    "word": "horny",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "h0rny"
+    ]
+  },
+  {
+    "word": "erection",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "er3ction",
+      "boner",
+      "hard on",
+      "hardon"
+    ]
+  },
+  {
+    "word": "orgasm",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "0rgasm"
+    ]
+  },
+  {
+    "word": "ejaculate",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "ejaculation"
+    ]
+  },
+  {
+    "word": "semen",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "s3men",
+      "sperm"
+    ]
+  },
+  {
+    "word": "scrotum",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "scr0tum",
+      "ballsack",
+      "balls"
+    ]
+  },
+  {
+    "word": "testicles",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "t3sticles",
+      "nuts",
+      "nutsack"
+    ]
+  },
+  {
+    "word": "clitoris",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "cl1toris",
+      "clit"
+    ]
+  },
+  {
+    "word": "labia",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "l@bia"
+    ]
+  },
+  {
+    "word": "vulva",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "vulv@"
+    ]
+  },
+  {
+    "word": "anus",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "@nus",
+      "butthole"
+    ]
+  },
+  {
+    "word": "anal",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "@nal"
+    ]
+  },
+  {
+    "word": "orientals",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "oriental"
+    ]
+  },
+  {
+    "word": "illegal",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "illegals",
+      "illegal alien"
+    ]
+  },
+  {
+    "word": "ghetto",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gh3tto"
+    ]
+  },
+  {
+    "word": "hood rat",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "hoodrat"
+    ]
+  },
+  {
+    "word": "thug",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "thugs"
+    ]
+  },
+  {
+    "word": "pimp",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "p1mp"
+    ]
+  },
+  {
+    "word": "meth",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "m3th",
+      "crystal meth"
+    ]
+  },
+  {
+    "word": "heroin",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "her0in",
+      "smack",
+      "dope"
+    ]
+  },
+  {
+    "word": "cocaine",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "c0caine",
+      "coke",
+      "blow",
+      "snow"
+    ]
+  },
+  {
+    "word": "crack",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "cr@ck",
+      "crackhead"
+    ]
+  },
+  {
+    "word": "junkie",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "junk1e",
+      "dope fiend"
+    ]
+  },
+  {
+    "word": "tweaker",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "tweak3r"
+    ]
+  },
+  {
+    "word": "ecstasy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "3cstasy",
+      "molly",
+      "mdma",
+      "x"
+    ]
+  },
+  {
+    "word": "lsd",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "acid",
+      "tabs"
+    ]
+  },
+  {
+    "word": "shrooms",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "mushrooms",
+      "psilocybin"
+    ]
+  },
+  {
+    "word": "oxy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "oxycontin",
+      "percs",
+      "percocet"
+    ]
+  },
+  {
+    "word": "xanax",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "xans",
+      "bars",
+      "benzos"
+    ]
+  },
+  {
+    "word": "lean",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "purple drank",
+      "sizzurp",
+      "syrup"
+    ]
+  },
+  {
+    "word": "cutter",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "cutting"
+    ]
+  },
+  {
+    "word": "anorexic",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "an0rexic",
+      "ana"
+    ]
+  },
+  {
+    "word": "bulimic",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "bul1mic",
+      "mia"
+    ]
+  },
+  {
+    "word": "psycho",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "psych0",
+      "psychopath"
+    ]
+  },
+  {
+    "word": "schizo",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "sch1zo",
+      "schizophrenic"
+    ]
+  },
+  {
+    "word": "spaz",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "sp@z",
+      "spastic"
+    ]
+  },
+  {
+    "word": "gimp",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "g1mp"
+    ]
+  },
+  {
+    "word": "cripple",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "cr1pple"
+    ]
+  },
+  {
+    "word": "midget",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "m1dget"
+    ]
+  },
+  {
+    "word": "degenerate",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "d3generate",
+      "degens"
+    ]
+  },
+  {
+    "word": "coombrain",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "coom brain"
+    ]
+  },
+  {
+    "word": "edging",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "edge",
+      "edged"
+    ]
+  },
+  {
+    "word": "gooning",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "goon",
+      "gooner"
+    ]
+  },
+  {
+    "word": "goyim",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "goy",
+      "g0yim"
+    ]
+  },
+  {
+    "word": "moid",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "m0id",
+      "scrote"
+    ]
+  },
+  {
+    "word": "manlet",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "m@nlet"
+    ]
+  },
+  {
+    "word": "heightcel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "height cel"
+    ]
+  },
+  {
+    "word": "wristcel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "wrist cel"
+    ]
+  },
+  {
+    "word": "framecel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "frame cel"
+    ]
+  },
+  {
+    "word": "blackpill",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "black pill"
+    ]
+  },
+  {
+    "word": "jbw",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "j.b.w",
+      "just be white"
+    ]
+  },
+  {
+    "word": "glowie",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gl0wie",
+      "fed"
+    ]
+  },
+  {
+    "word": "globalist",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gl0balist"
+    ]
+  },
+  {
+    "word": "cultural marxism",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "culturalmarxism"
+    ]
+  },
+  {
+    "word": "iq gap",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "iqgap"
+    ]
+  },
+  {
+    "word": "bell curve",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "bellcurve"
+    ]
+  },
+  {
+    "word": "banana",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "b@nana"
+    ]
+  },
+  {
+    "word": "twinkie",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "twink1e"
+    ]
+  },
+  {
+    "word": "oreo",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "0reo"
+    ]
+  },
+  {
+    "word": "coconut",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "c0conut"
+    ]
+  },
+  {
+    "word": "guido",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "gu1do"
+    ]
+  },
+  {
+    "word": "paddy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "p@ddy"
+    ]
+  },
+  {
+    "word": "kraut",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "kr@ut"
+    ]
+  },
+  {
+    "word": "frog",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "fr0g",
+      "frogs"
+    ]
+  },
+  {
+    "word": "froggy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "fr0ggy"
+    ]
+  },
+  {
+    "word": "tinker",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "t1nker"
+    ]
+  },
+  {
+    "word": "knacker",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "kn@cker"
+    ]
+  },
+  {
+    "word": "proddy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "pr0ddy"
+    ]
+  },
+  {
+    "word": "orangie",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "0rangie"
+    ]
+  },
+  {
+    "word": "munter",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "munt3r"
+    ]
+  },
+  {
+    "word": "scrote",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "scr0te"
+    ]
+  },
+  {
+    "word": "cretin",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "cr3tin"
+    ]
+  },
+  {
+    "word": "invalid",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "1nvalid"
+    ]
+  },
+  {
+    "word": "autist",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "@utist",
+      "autismo"
+    ]
+  },
+  {
+    "word": "aspie",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "@spie"
+    ]
+  },
+  {
+    "word": "weaponized autism",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "weaponizedautism"
+    ]
+  },
+  {
+    "word": "assburgers",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "ass burgers"
+    ]
+  },
+  {
+    "word": "helmet",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "h3lmet"
+    ]
+  },
+  {
+    "word": "smoothbrain",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "smooth brain"
+    ]
+  },
+  {
+    "word": "brainlet",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "br@inlet"
+    ]
+  },
+  {
+    "word": "room temperature iq",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "roomtemperatureiq"
+    ]
+  },
+  {
+    "word": "single digit iq",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "singledigitiq"
+    ]
+  },
+  {
+    "word": "wagecuck",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "wage cuck",
+      "wagie"
+    ]
+  },
+  {
+    "word": "bugman",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "bug man"
+    ]
+  },
+  {
+    "word": "coomer brain",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "coomerbrain"
+    ]
+  },
+  {
+    "word": "thundercock",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "thunder cock"
+    ]
+  },
+  {
+    "word": "tyrone",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "tyr0ne"
+    ]
+  },
+  {
+    "word": "chadpreet",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "chad preet"
+    ]
+  },
+  {
+    "word": "chaddullah",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "chad dullah"
+    ]
+  },
+  {
+    "word": "khhv",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "k.h.h.v",
+      "kissless hugless"
+    ]
+  },
+  {
+    "word": "trucel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "true cel"
+    ]
+  },
+  {
+    "word": "mentalcel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "mental cel"
+    ]
+  },
+  {
+    "word": "facecel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "face cel"
+    ]
+  },
+  {
+    "word": "escortcel",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "escort cel"
+    ]
+  },
+  {
+    "word": "seamaxxing",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "seamax"
+    ]
+  },
+  {
+    "word": "jbw theory",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "jbwtheory"
+    ]
+  },
+  {
+    "word": "juggernaut law",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "juggernautlaw"
+    ]
+  },
+  {
+    "word": "hypergamy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "hyp3rgamy"
+    ]
+  },
+  {
+    "word": "80/20 rule",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "8020 rule",
+      "pareto principle"
+    ]
+  },
+  {
+    "word": "bonesmashing",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "bone smashing"
+    ]
+  },
+  {
+    "word": "beta bux",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "betabux",
+      "betabuxx"
+    ]
+  },
+  {
+    "word": "alpha fucks beta bucks",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "afbb"
+    ]
+  },
+  {
+    "word": "wall",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "the wall",
+      "hit the wall"
+    ]
+  },
+  {
+    "word": "post wall",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "postwall"
+    ]
+  },
+  {
+    "word": "awalt",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "a.w.a.l.t",
+      "all women are like that"
+    ]
+  },
+  {
+    "word": "amalt",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "a.m.a.l.t",
+      "all men are like that"
+    ]
+  },
+  {
+    "word": "mgtow",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "m.g.t.o.w",
+      "men going their own way"
+    ]
+  },
+  {
+    "word": "negging",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "neg",
+      "negs"
+    ]
+  },
+  {
+    "word": "shit test",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "shittest"
+    ]
+  },
+  {
+    "word": "dread game",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "dreadgame"
+    ]
+  },
+  {
+    "word": "sloot",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "sl00t"
+    ]
+  },
+  {
+    "word": "cc rider",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "ccrider"
+    ]
+  },
+  {
+    "word": "dual mating strategy",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "dualmatingstrategy"
+    ]
+  },
+  {
+    "word": "scrote",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "scr0te",
+      "scrotes"
+    ]
+  },
+  {
+    "word": "lvw",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "l.v.w",
+      "low value woman"
+    ]
+  },
+  {
+    "word": "lvm",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "l.v.m",
+      "low value man"
+    ]
+  },
+  {
+    "word": "fds",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "f.d.s",
+      "female dating strategy"
+    ]
+  },
+  {
+    "word": "brigading",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "brigade"
+    ]
+  },
+  {
+    "word": "raiding",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "raid"
+    ]
+  },
+  {
+    "word": "meat riding",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "meatriding",
+      "meat ride"
+    ]
+  },
+  {
+    "word": "dick eating",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "dickeating",
+      "dick eat"
+    ]
+  },
+  {
+    "word": "dickrider",
+    "severity": "moderate",
+    "alternatives": [],
+    "variants": [
+      "dick rider"
+    ]
+  },
+  {
+    "word": "لعنة",
+    "severity": "moderate",
+    "alternatives": [
+      "يا الله"
+    ]
+  },
+  {
+    "word": "اللعنة",
+    "severity": "moderate",
+    "alternatives": [
+      "يا الله"
+    ]
+  },
+  {
+    "word": "حمار",
+    "severity": "moderate",
+    "alternatives": [
+      "غبي",
+      "أحمق"
+    ]
+  },
+  {
+    "word": "يا حمار",
+    "severity": "moderate",
+    "alternatives": [
+      "يا غبي"
+    ]
+  },
+  {
+    "word": "تفو",
+    "severity": "moderate",
+    "alternatives": []
+  },
+  {
+    "word": "قذر",
+    "severity": "moderate",
+    "alternatives": [
+      "وسخ",
+      "متسخ"
+    ]
+  },
+  {
+    "word": "قرف",
+    "severity": "moderate",
+    "alternatives": [
+      "مقزز"
+    ]
+  },
+  {
+    "word": "تبا",
+    "severity": "moderate",
+    "alternatives": [
+      "يا للأسف"
+    ]
+  },
+  {
+    "word": "انقلع",
+    "severity": "moderate",
+    "alternatives": [
+      "اذهب",
+      "ارحل"
+    ]
+  },
+  {
+    "word": "اخرس",
+    "severity": "moderate",
+    "alternatives": [
+      "اسكت",
+      "اصمت"
+    ]
+  },
+  {
+    "word": "他妈",
+    "severity": "moderate",
+    "alternatives": [
+      "天哪"
+    ]
+  },
+  {
+    "word": "滚",
+    "severity": "moderate",
+    "alternatives": [
+      "走",
+      "离开"
+    ]
+  },
+  {
+    "word": "滚开",
+    "severity": "moderate",
+    "alternatives": [
+      "走开",
+      "请离开"
+    ]
+  },
+  {
+    "word": "妈的",
+    "severity": "moderate",
+    "alternatives": [
+      "该死",
+      "糟糕"
+    ]
+  },
+  {
+    "word": "狗屎",
+    "severity": "moderate",
+    "alternatives": [
+      "垃圾",
+      "废物"
+    ]
+  },
+  {
+    "word": "蠢货",
+    "severity": "moderate",
+    "alternatives": [
+      "笨蛋",
+      "傻瓜"
+    ]
+  },
+  {
+    "word": "靠",
+    "severity": "moderate",
+    "alternatives": [
+      "糟糕",
+      "天啊"
+    ]
+  },
+  {
+    "word": "混蛋",
+    "severity": "moderate",
+    "alternatives": [
+      "坏蛋",
+      "恶棍"
+    ]
+  },
+  {
+    "word": "cac",
+    "severity": "moderate",
+    "alternatives": [
+      "rubbish"
+    ]
+  },
+  {
+    "word": "píosa cac",
+    "severity": "moderate",
+    "alternatives": [
+      "piece of rubbish"
+    ]
+  },
+  {
+    "word": "bod",
+    "severity": "moderate",
+    "alternatives": [
+      "person"
+    ]
+  },
+  {
+    "word": "póg mo thóin",
+    "severity": "moderate",
+    "alternatives": [
+      "go away"
+    ]
+  },
+  {
+    "word": "gobshite",
+    "severity": "moderate",
+    "alternatives": [
+      "fool",
+      "idiot"
+    ]
+  },
+  {
+    "word": "bastún",
+    "severity": "moderate",
+    "alternatives": [
+      "jerk"
+    ]
+  },
+  {
+    "word": "ainnis ort",
+    "severity": "moderate",
+    "alternatives": [
+      "shame on you"
+    ]
+  },
+  {
+    "word": "dún do chlab",
+    "severity": "moderate",
+    "alternatives": [
+      "be quiet",
+      "hush"
+    ]
+  },
+  {
+    "word": "damnú ort",
+    "severity": "moderate",
+    "alternatives": [
+      "darn you"
+    ]
+  },
+  {
+    "word": "merde",
+    "severity": "moderate",
+    "alternatives": [
+      "zut",
+      "flûte"
+    ]
+  },
+  {
+    "word": "bordel",
+    "severity": "moderate",
+    "alternatives": [
+      "zut",
+      "flûte"
+    ]
+  },
+  {
+    "word": "chiant",
+    "severity": "moderate",
+    "alternatives": [
+      "ennuyeux",
+      "agaçant"
+    ]
+  },
+  {
+    "word": "casse‑toi",
+    "severity": "moderate",
+    "alternatives": [
+      "va-t'en",
+      "pars"
+    ]
+  },
+  {
+    "word": "couillon",
+    "severity": "moderate",
+    "alternatives": [
+      "idiot",
+      "bête"
+    ]
+  },
+  {
+    "word": "cul",
+    "severity": "moderate",
+    "alternatives": [
+      "derrière"
+    ]
+  },
+  {
+    "word": "pinche",
+    "severity": "moderate",
+    "alternatives": [
+      "maldito"
+    ]
+  },
+  {
+    "word": "huevos",
+    "severity": "moderate",
+    "alternatives": []
+  },
+  {
+    "word": "idiota",
+    "severity": "moderate",
+    "alternatives": [
+      "tonto",
+      "bobo"
+    ]
+  },
+  {
+    "word": "estúpido",
+    "severity": "moderate",
+    "alternatives": [
+      "tonto",
+      "necio"
+    ]
+  },
+  {
+    "word": "imbécil",
+    "severity": "moderate",
+    "alternatives": [
+      "tonto"
+    ]
+  },
+  {
+    "word": "boludo",
+    "severity": "moderate",
+    "alternatives": [
+      "tonto"
+    ]
+  },
+  {
+    "word": "pelotudo",
+    "severity": "moderate",
+    "alternatives": [
+      "tonto"
+    ]
+  },
+  {
+    "word": "maldito",
+    "severity": "moderate",
+    "alternatives": [
+      "malo"
+    ]
+  }
+]

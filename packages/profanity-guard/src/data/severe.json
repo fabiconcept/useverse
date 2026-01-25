@@ -1,0 +1,1798 @@
+[
+  {
+    "word": "🖕",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      ""
+    ]
+  },
+  {
+    "word": "fuck",
+    "severity": "severe",
+    "alternatives": [
+      "fudge",
+      "heck"
+    ],
+    "variants": [
+      "f**k",
+      "fuk",
+      "fck",
+      "f uck",
+      "phuck",
+      "fvck",
+      "fuq",
+      "fuc",
+      "f*ck",
+      "f@ck",
+      "fawk",
+      "fuxk"
+    ]
+  },
+  {
+    "word": "fucking",
+    "severity": "severe",
+    "alternatives": [
+      "freaking",
+      "very"
+    ],
+    "variants": [
+      "f**king",
+      "fuking",
+      "fcking",
+      "fkng",
+      "fking",
+      "f*cking",
+      "fuxking",
+      "phucking"
+    ]
+  },
+  {
+    "word": "motherfucker",
+    "severity": "severe",
+    "alternatives": [
+      "jerk"
+    ],
+    "variants": [
+      "mofo",
+      "mf",
+      "m-f",
+      "motherf**ker",
+      "muthafucka",
+      "mothafucka",
+      "mutherfucker"
+    ]
+  },
+  {
+    "word": "cunt",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "c**t",
+      "kunt",
+      "c*nt",
+      "cvnt"
+    ]
+  },
+  {
+    "word": "retard",
+    "severity": "severe",
+    "alternatives": [
+      "silly person"
+    ],
+    "variants": [
+      "ret@rd",
+      "r3tard",
+      "tard"
+    ]
+  },
+  {
+    "word": "retarded",
+    "severity": "severe",
+    "alternatives": [
+      "silly",
+      "foolish"
+    ],
+    "variants": [
+      "ret@rded",
+      "r3tarded",
+      "retarted"
+    ]
+  },
+  {
+    "word": "stfu",
+    "severity": "severe",
+    "alternatives": [
+      "be quiet"
+    ],
+    "variants": [
+      "s.t.f.u",
+      "shut the fuck up"
+    ]
+  },
+  {
+    "word": "gtfo",
+    "severity": "severe",
+    "alternatives": [
+      "go away"
+    ],
+    "variants": [
+      "g.t.f.o",
+      "get the fuck out"
+    ]
+  },
+  {
+    "word": "whore",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "wh0re",
+      "hor",
+      "hoe"
+    ]
+  },
+  {
+    "word": "slut",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sl*t",
+      "slvt"
+    ]
+  },
+  {
+    "word": "fag",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "f@g",
+      "fagg",
+      "f4g"
+    ]
+  },
+  {
+    "word": "faggot",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "f@ggot",
+      "fagot",
+      "f4ggot"
+    ]
+  },
+  {
+    "word": "dyke",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "d1ke",
+      "dyk3"
+    ]
+  },
+  {
+    "word": "tranny",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "tr@nny"
+    ]
+  },
+  {
+    "word": "shemale",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": []
+  },
+  {
+    "word": "negro",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "n3gro"
+    ]
+  },
+  {
+    "word": "nigger",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "n1gger",
+      "n!gger",
+      "nig",
+      "nigg",
+      "n-word",
+      "nigga",
+      "niggah",
+      "nigr",
+      "niqqa",
+      "niqqer",
+      "niggers",
+      "n1ggers",
+      "n!ggers",
+      "niggers",
+      "niggahs",
+      "nigr",
+      "niqqas",
+      "niqqers"
+    ]
+  },
+  {
+    "word": "chink",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "ch1nk"
+    ]
+  },
+  {
+    "word": "gook",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "g00k"
+    ]
+  },
+  {
+    "word": "spic",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sp1c",
+      "spik",
+      "spics",
+      "sp1cs",
+      "spiks",
+      "spiz",
+      "spizs",
+      "spizzz",
+      "spizzzz"
+    ]
+  },
+  {
+    "word": "kike",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "k1ke",
+      "kike",
+      "kikes",
+      "k1kes",
+      "kikes",
+      "k1kez",
+      "kikes",
+      "k1kezz",
+      "kikes",
+      "k1kezzz"
+    ]
+  },
+  {
+    "word": "wetback",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "wet back"
+    ]
+  },
+  {
+    "word": "raghead",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "rag head"
+    ]
+  },
+  {
+    "word": "towelhead",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "towel head"
+    ]
+  },
+  {
+    "word": "beaner",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": []
+  },
+  {
+    "word": "terrorist",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "terr0rist",
+      "t3rrorist"
+    ]
+  },
+  {
+    "word": "rape",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "r@pe",
+      "raped"
+    ]
+  },
+  {
+    "word": "nazi",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "n@zi",
+      "naz1",
+      "fascist"
+    ]
+  },
+  {
+    "word": "feminazi",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "femin@zi"
+    ]
+  },
+  {
+    "word": "molest",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "m0lest",
+      "molester"
+    ]
+  },
+  {
+    "word": "rape",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "r@pe",
+      "raep",
+      "raping",
+      "rapist"
+    ]
+  },
+  {
+    "word": "nazi",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "n@zi",
+      "naz1",
+      "natzee",
+      "nahtzee"
+    ]
+  },
+  {
+    "word": "hitler",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "h1tler",
+      "hitl3r"
+    ]
+  },
+  {
+    "word": "kkk",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "k.k.k",
+      "ku klux klan"
+    ]
+  },
+  {
+    "word": "genocide",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "genoc1de",
+      "g3nocide",
+      "g3noc1de",
+      "g3n0c1de",
+      "g3n0c1d3",
+      "g3noc1d3",
+      "g3n0cid3"
+    ]
+  },
+  {
+    "word": "holocaust",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "h0locaust"
+    ]
+  },
+  {
+    "word": "lynching",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "lynch"
+    ]
+  },
+  {
+    "word": "picaninny",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "pickaninny"
+    ]
+  },
+  {
+    "word": "jigaboo",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "jiggaboo",
+      "jig"
+    ]
+  },
+  {
+    "word": "coon",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "c00n"
+    ]
+  },
+  {
+    "word": "paki",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "p@ki"
+    ]
+  },
+  {
+    "word": "sandnigger",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sand nigger",
+      "sandnig"
+    ]
+  },
+  {
+    "word": "muzzie",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "muzzy"
+    ]
+  },
+  {
+    "word": "jihad",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "j1had",
+      "jihadist",
+      "jihadisti",
+      "jihadistis",
+      "jihadistism"
+    ]
+  },
+  {
+    "word": "wop",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "w0p"
+    ]
+  },
+  {
+    "word": "dago",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "dag0"
+    ]
+  },
+  {
+    "word": "polack",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "p0lack"
+    ]
+  },
+  {
+    "word": "redskin",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "red skin"
+    ]
+  },
+  {
+    "word": "injun",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "1njun"
+    ]
+  },
+  {
+    "word": "squaw",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sqw@w"
+    ]
+  },
+  {
+    "word": "zipperhead",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "zipper head"
+    ]
+  },
+  {
+    "word": "coolie",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "c00lie"
+    ]
+  },
+  {
+    "word": "yid",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "y1d"
+    ]
+  },
+  {
+    "word": "heeb",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "hebe"
+    ]
+  },
+  {
+    "word": "sheeny",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sheenie"
+    ]
+  },
+  {
+    "word": "hymie",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "h1mie"
+    ]
+  },
+  {
+    "word": "aryan",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "@ryan"
+    ]
+  },
+  {
+    "word": "furfag",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "fur fag"
+    ]
+  },
+  {
+    "word": "sodomite",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "s0domite"
+    ]
+  },
+  {
+    "word": "homo",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "h0mo"
+    ]
+  },
+  {
+    "word": "bugchaser",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "bug chaser"
+    ]
+  },
+  {
+    "word": "pozzing",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "poz",
+      "pozzer"
+    ]
+  },
+  {
+    "word": "predator",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "pred@tor"
+    ]
+  },
+  {
+    "word": "groomer",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "gr00mer",
+      "grooming"
+    ]
+  },
+  {
+    "word": "creampie",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "cream pie"
+    ]
+  },
+  {
+    "word": "bukkake",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "bukake"
+    ]
+  },
+  {
+    "word": "gangbang",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "gang bang"
+    ]
+  },
+  {
+    "word": "blowjob",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "blow job",
+      "bj",
+      "b.j"
+    ]
+  },
+  {
+    "word": "handjob",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "hand job",
+      "hj"
+    ]
+  },
+  {
+    "word": "cumming",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "cuming",
+      "cum",
+      "jizz",
+      "nut",
+      "nutting"
+    ]
+  },
+  {
+    "word": "rimjob",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "rim job"
+    ]
+  },
+  {
+    "word": "felching",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "felch"
+    ]
+  },
+  {
+    "word": "scat",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sc@t"
+    ]
+  },
+  {
+    "word": "incest",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "1ncest"
+    ]
+  },
+  {
+    "word": "bestiality",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "beastiality",
+      "zoophilia"
+    ]
+  },
+  {
+    "word": "necrophilia",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "necr0philia"
+    ]
+  },
+  {
+    "word": "ching chong",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "chingchong"
+    ]
+  },
+  {
+    "word": "chinaman",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "china man"
+    ]
+  },
+  {
+    "word": "mongoloid",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "mong"
+    ]
+  },
+  {
+    "word": "savages",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "savage"
+    ]
+  },
+  {
+    "word": "colored",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "col0red"
+    ]
+  },
+  {
+    "word": "mulatto",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "mul@tto"
+    ]
+  },
+  {
+    "word": "half breed",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "halfbreed"
+    ]
+  },
+  {
+    "word": "mongrel",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "m0ngrel"
+    ]
+  },
+  {
+    "word": "anchor baby",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "anchorbaby"
+    ]
+  },
+  {
+    "word": "welfare queen",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "welfarequeen"
+    ]
+  },
+  {
+    "word": "fentanyl",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "fent"
+    ]
+  },
+  {
+    "word": "overdose",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "od",
+      "o.d"
+    ]
+  },
+  {
+    "word": "suicide",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "su1cide",
+      "self delete",
+      "unalive"
+    ]
+  },
+  {
+    "word": "downy",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "downsy",
+      "downs"
+    ]
+  },
+  {
+    "word": "vegetable",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "v3getable"
+    ]
+  },
+  {
+    "word": "troon",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "tr00n"
+    ]
+  },
+  {
+    "word": "groomer",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "gr00mer"
+    ]
+  },
+  {
+    "word": "roastie",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "ro@stie"
+    ]
+  },
+  {
+    "word": "foid",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "f0id",
+      "femoid"
+    ]
+  },
+  {
+    "word": "currycel",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "curry cel"
+    ]
+  },
+  {
+    "word": "ricecel",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "rice cel"
+    ]
+  },
+  {
+    "word": "dogpill",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "dog pill"
+    ]
+  },
+  {
+    "word": "racepill",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "race pill"
+    ]
+  },
+  {
+    "word": "ldar",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "l.d.a.r",
+      "lay down and rot"
+    ]
+  },
+  {
+    "word": "rope",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "r0pe",
+      "roping"
+    ]
+  },
+  {
+    "word": "ywnbaw",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "y.w.n.b.a.w",
+      "you will never be a woman"
+    ]
+  },
+  {
+    "word": "ywnbam",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "y.w.n.b.a.m",
+      "you will never be a man"
+    ]
+  },
+  {
+    "word": "41percent",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "41%",
+      "41 percent"
+    ]
+  },
+  {
+    "word": "13/50",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "1350",
+      "13 50",
+      "despite"
+    ]
+  },
+  {
+    "word": "jogger",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "j0gger"
+    ]
+  },
+  {
+    "word": "dindu",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "dindu nuffin"
+    ]
+  },
+  {
+    "word": "kangz",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "we wuz kangz"
+    ]
+  },
+  {
+    "word": "porch monkey",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "porchmonkey",
+      "porch m0nkey"
+    ]
+  },
+  {
+    "word": "tar baby",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "tarbaby"
+    ]
+  },
+  {
+    "word": "jungle bunny",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "junglebunny"
+    ]
+  },
+  {
+    "word": "moon cricket",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "mooncricket"
+    ]
+  },
+  {
+    "word": "spook",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sp00k"
+    ]
+  },
+  {
+    "word": "spade",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sp@de"
+    ]
+  },
+  {
+    "word": "cotton picker",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "cottonpicker"
+    ]
+  },
+  {
+    "word": "sambo",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "s@mbo"
+    ]
+  },
+  {
+    "word": "mammy",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "m@mmy"
+    ]
+  },
+  {
+    "word": "uncle tom",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "uncletom"
+    ]
+  },
+  {
+    "word": "house nigger",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "house nigga",
+      "field nigger"
+    ]
+  },
+  {
+    "word": "mud shark",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "mudshark"
+    ]
+  },
+  {
+    "word": "coal burner",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "coalburner"
+    ]
+  },
+  {
+    "word": "oil driller",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "oildriller"
+    ]
+  },
+  {
+    "word": "race traitor",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "racetraitor"
+    ]
+  },
+  {
+    "word": "race mixer",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "racemixer",
+      "miscegenation"
+    ]
+  },
+  {
+    "word": "white genocide",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "whitegenocide"
+    ]
+  },
+  {
+    "word": "great replacement",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "greatreplacement"
+    ]
+  },
+  {
+    "word": "blood and soil",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "bloodandsoil"
+    ]
+  },
+  {
+    "word": "jews will not replace us",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "jewswillnotrepleceus"
+    ]
+  },
+  {
+    "word": "14 words",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "1488",
+      "fourteen words"
+    ]
+  },
+  {
+    "word": "88",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "hh",
+      "heil hitler"
+    ]
+  },
+  {
+    "word": "zog",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "z.o.g"
+    ]
+  },
+  {
+    "word": "race realism",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "racerealism",
+      "race realist"
+    ]
+  },
+  {
+    "word": "human biodiversity",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "hbd"
+    ]
+  },
+  {
+    "word": "shitskin",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "shit skin",
+      "sh1tskin"
+    ]
+  },
+  {
+    "word": "poo in loo",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "pooinloo",
+      "designated"
+    ]
+  },
+  {
+    "word": "streetshitter",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "street shitter"
+    ]
+  },
+  {
+    "word": "pajeet",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "p@jeet"
+    ]
+  },
+  {
+    "word": "chang",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "ch@ng"
+    ]
+  },
+  {
+    "word": "ling ling",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "lingling"
+    ]
+  },
+  {
+    "word": "nip",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "n1p",
+      "jap"
+    ]
+  },
+  {
+    "word": "slope",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sl0pe"
+    ]
+  },
+  {
+    "word": "border hopper",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "borderhopper"
+    ]
+  },
+  {
+    "word": "fence jumper",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "fencejumper"
+    ]
+  },
+  {
+    "word": "taco bender",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "tacobender"
+    ]
+  },
+  {
+    "word": "greaseball",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "grease ball"
+    ]
+  },
+  {
+    "word": "guinea",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "guin3a"
+    ]
+  },
+  {
+    "word": "mick",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "m1ck"
+    ]
+  },
+  {
+    "word": "potato nigger",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "potatonigger"
+    ]
+  },
+  {
+    "word": "moolignon",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "mulignan"
+    ]
+  },
+  {
+    "word": "pikey",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "p1key"
+    ]
+  },
+  {
+    "word": "taig",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "ta1g"
+    ]
+  },
+  {
+    "word": "fenian",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "fen1an"
+    ]
+  },
+  {
+    "word": "abo",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "@bo"
+    ]
+  },
+  {
+    "word": "boong",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "b00ng"
+    ]
+  },
+  {
+    "word": "coon",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "c00n"
+    ]
+  },
+  {
+    "word": "kaffir",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "kaffer",
+      "k@ffir"
+    ]
+  },
+  {
+    "word": "hotnot",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "hotentot"
+    ]
+  },
+  {
+    "word": "spastic",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sp@stic"
+    ]
+  },
+  {
+    "word": "window licker",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "windowlicker"
+    ]
+  },
+  {
+    "word": "sped",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "sp3d"
+    ]
+  },
+  {
+    "word": "potato",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "pot@to"
+    ]
+  },
+  {
+    "word": "ethnicel",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "ethnic cel"
+    ]
+  },
+  {
+    "word": "cock carousel",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "cockcarousel"
+    ]
+  },
+  {
+    "word": "doxxing",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "dox",
+      "doxx",
+      "doxed"
+    ]
+  },
+  {
+    "word": "swatting",
+    "severity": "severe",
+    "alternatives": [],
+    "variants": [
+      "swat",
+      "swatted"
+    ]
+  },
+  {
+    "word": "خرا",
+    "severity": "severe",
+    "alternatives": [
+      "قذارة"
+    ]
+  },
+  {
+    "word": "خراء",
+    "severity": "severe",
+    "alternatives": [
+      "قذارة",
+      "وسخ"
+    ]
+  },
+  {
+    "word": "كلب",
+    "severity": "severe",
+    "alternatives": [
+      "سيء"
+    ]
+  },
+  {
+    "word": "يا كلب",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "يلعن شكلك",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "تفو عليك",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "操",
+    "severity": "severe",
+    "alternatives": [
+      "糟糕",
+      "天啊"
+    ]
+  },
+  {
+    "word": "操你",
+    "severity": "severe",
+    "alternatives": [
+      "讨厌你"
+    ]
+  },
+  {
+    "word": "他妈的",
+    "severity": "severe",
+    "alternatives": [
+      "该死",
+      "糟糕"
+    ]
+  },
+  {
+    "word": "去死",
+    "severity": "severe",
+    "alternatives": [
+      "走开",
+      "离开"
+    ]
+  },
+  {
+    "word": "傻逼",
+    "severity": "severe",
+    "alternatives": [
+      "笨蛋",
+      "傻瓜"
+    ]
+  },
+  {
+    "word": "煞笔",
+    "severity": "severe",
+    "alternatives": [
+      "笨蛋",
+      "傻瓜"
+    ]
+  },
+  {
+    "word": "屌",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "贱人",
+    "severity": "severe",
+    "alternatives": [
+      "坏人",
+      "恶人"
+    ]
+  },
+  {
+    "word": "死变态",
+    "severity": "severe",
+    "alternatives": [
+      "怪人"
+    ]
+  },
+  {
+    "word": "日",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "日你",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "王八蛋",
+    "severity": "severe",
+    "alternatives": [
+      "坏蛋"
+    ]
+  },
+  {
+    "word": "龟儿子",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "putain",
+    "severity": "severe",
+    "alternatives": [
+      "zut",
+      "punaise"
+    ]
+  },
+  {
+    "word": "con",
+    "severity": "severe",
+    "alternatives": [
+      "bête",
+      "idiot"
+    ]
+  },
+  {
+    "word": "connard",
+    "severity": "severe",
+    "alternatives": [
+      "idiot",
+      "imbécile"
+    ]
+  },
+  {
+    "word": "connasse",
+    "severity": "severe",
+    "alternatives": [
+      "idiote"
+    ]
+  },
+  {
+    "word": "salaud",
+    "severity": "severe",
+    "alternatives": [
+      "méchant"
+    ]
+  },
+  {
+    "word": "foutre",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "enfoiré",
+    "severity": "severe",
+    "alternatives": [
+      "idiot"
+    ]
+  },
+  {
+    "word": "ferme ta gueule",
+    "severity": "severe",
+    "alternatives": [
+      "tais-toi"
+    ]
+  },
+  {
+    "word": "ta gueule",
+    "severity": "severe",
+    "alternatives": [
+      "tais-toi",
+      "silence"
+    ]
+  },
+  {
+    "word": "couille",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "bâtard",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "gros con",
+    "severity": "severe",
+    "alternatives": [
+      "gros idiot"
+    ]
+  },
+  {
+    "word": "trou du cul",
+    "severity": "severe",
+    "alternatives": [
+      "idiot"
+    ]
+  },
+  {
+    "word": "joder",
+    "severity": "severe",
+    "alternatives": [
+      "rayos",
+      "caray"
+    ]
+  },
+  {
+    "word": "carajo",
+    "severity": "severe",
+    "alternatives": [
+      "rayos",
+      "diablos"
+    ]
+  },
+  {
+    "word": "marica",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "cabrón",
+    "severity": "severe",
+    "alternatives": [
+      "malo",
+      "desagradable"
+    ]
+  },
+  {
+    "word": "pendejo",
+    "severity": "severe",
+    "alternatives": [
+      "tonto",
+      "idiota"
+    ]
+  },
+  {
+    "word": "gilipollas",
+    "severity": "severe",
+    "alternatives": [
+      "tonto",
+      "idiota"
+    ]
+  },
+  {
+    "word": "mierda",
+    "severity": "severe",
+    "alternatives": [
+      "porquería",
+      "basura"
+    ]
+  },
+  {
+    "word": "cojones",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "bollocks",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "culo",
+    "severity": "severe",
+    "alternatives": [
+      "trasero"
+    ]
+  },
+  {
+    "word": "puto",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "zorra",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "bastardo",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "mamada",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "chupada",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "follar",
+    "severity": "severe",
+    "alternatives": []
+  },
+  {
+    "word": "chupar",
+    "severity": "severe",
+    "alternatives": []
+  }
+]
