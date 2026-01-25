@@ -26,13 +26,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Configure npm authentication
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
       
       - name: Install dependencies
         run: npm ci
-      
-      - name: List workspaces
-        run: npm ls --workspaces --depth=0
       
       - name: Build packages individually
         run: |
@@ -64,7 +65,6 @@ jobs:
           commit: "chore: version packages"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       
       - name: Setup Node for GitHub Packages
         if: steps.changesets.outputs.published == 'true'
