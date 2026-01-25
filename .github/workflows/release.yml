@@ -27,15 +27,19 @@ jobs:
         with:
           node-version: 18
       
-      - name: Configure npm authentication
+      - name: Create .npmrc
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          echo "registry=https://registry.npmjs.org/" >> ~/.npmrc
+          cat << EOF > "$HOME/.npmrc"
+          //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
+          EOF
+      
+      - name: Verify npm auth
+        run: npm whoami
       
       - name: Install dependencies
         run: npm ci
       
-      - name: Build packages individually
+      - name: Build packages
         run: |
           set -e
           for package in packages/*/package.json; do
@@ -44,10 +48,7 @@ jobs:
             echo "Building $pkg_name in $dir..."
             cd "$dir"
             if [ -f "package.json" ] && grep -q '"build"' package.json; then
-              npm run build || {
-                echo "❌ Build failed for $pkg_name"
-                exit 1
-              }
+              npm run build
               echo "✅ Built $pkg_name successfully"
             else
               echo "⚠️  No build script found for $pkg_name"
@@ -82,10 +83,7 @@ jobs:
             pkg_name=$(node -p "require('./$package').name")
             echo "Publishing $pkg_name to GitHub Packages..."
             cd "$dir"
-            npm publish --registry=https://npm.pkg.github.com --ignore-scripts || {
-              echo "❌ Failed to publish $pkg_name to GitHub Packages"
-              exit 1
-            }
+            npm publish --registry=https://npm.pkg.github.com --ignore-scripts
             echo "✅ Published $pkg_name to GitHub Packages"
             cd ../..
           done
