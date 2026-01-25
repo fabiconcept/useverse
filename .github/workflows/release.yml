@@ -31,8 +31,28 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      - name: Build packages
-        run: npm run build
+      - name: List workspaces
+        run: npm ls --workspaces --depth=0
+      
+      - name: Build packages individually
+        run: |
+          set -e
+          for package in packages/*/package.json; do
+            dir=$(dirname "$package")
+            pkg_name=$(node -p "require('./$package').name")
+            echo "Building $pkg_name in $dir..."
+            cd "$dir"
+            if [ -f "package.json" ] && grep -q '"build"' package.json; then
+              npm run build || {
+                echo "❌ Build failed for $pkg_name"
+                exit 1
+              }
+              echo "✅ Built $pkg_name successfully"
+            else
+              echo "⚠️  No build script found for $pkg_name"
+            fi
+            cd ../..
+          done
       
       - name: Create Release Pull Request or Publish to npm
         id: changesets
@@ -59,9 +79,14 @@ jobs:
         run: |
           for package in packages/*/package.json; do
             dir=$(dirname "$package")
-            echo "Publishing $dir to GitHub Packages..."
+            pkg_name=$(node -p "require('./$package').name")
+            echo "Publishing $pkg_name to GitHub Packages..."
             cd "$dir"
-            npm publish --registry=https://npm.pkg.github.com --ignore-scripts
+            npm publish --registry=https://npm.pkg.github.com --ignore-scripts || {
+              echo "❌ Failed to publish $pkg_name to GitHub Packages"
+              exit 1
+            }
+            echo "✅ Published $pkg_name to GitHub Packages"
             cd ../..
           done
         env:
