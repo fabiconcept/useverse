@@ -10,7 +10,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabiconcept/useverse.git",
+    "url": "git+https://github.com/useverse/useverse.git",
     "directory": "packages/profanity-guard"
   },
   "publishConfig": {
